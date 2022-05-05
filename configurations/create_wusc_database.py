@@ -75,7 +75,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     coda_dataset_id="WUSC-KEEP-II_kakuma_gender", #TODO rename this to WUSC_kakuma_kalobeyei_gender
                     engagement_db_dataset="gender",
                     code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("gender"), auto_coder=swahili.DemographicCleaner.clean_gender)
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("demographics/gender"), auto_coder=swahili.DemographicCleaner.clean_gender)
                     ],
                     ws_code_string_value="kakuma gender"
                 ),
@@ -83,7 +83,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     coda_dataset_id="WUSC-KEEP-II_kakuma_location",
                     engagement_db_dataset="location",
                     code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("location"), auto_coder=None),
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("demographics/location"), auto_coder=None),
                     ],
                     ws_code_string_value="kakuma location"
                 ),
@@ -91,7 +91,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     coda_dataset_id="WUSC-KEEP-II_kakuma_household_language",
                     engagement_db_dataset="household_language",
                     code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("household_language"), auto_coder=None),
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("demographics/household_language"), auto_coder=None),
                     ],
                     ws_code_string_value="kakuma household language"
                 ),
@@ -99,7 +99,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     coda_dataset_id="WUSC-KEEP-II_kakuma_age",
                     engagement_db_dataset="age",
                     code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("age"), auto_coder=lambda x:
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("demographics/age"), auto_coder=lambda x:
                         str(swahili.DemographicCleaner.clean_age_within_range(x))),
                     ],
                     ws_code_string_value="kakuma age"

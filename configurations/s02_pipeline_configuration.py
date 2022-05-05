@@ -73,7 +73,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     coda_dataset_id="WUSC-KEEP-II_kakuma_gender", #TODO rename this to WUSC_kakuma_kalobeyei_gender
                     engagement_db_dataset="gender",
                     code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("gender"), auto_coder=swahili.DemographicCleaner.clean_gender)
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("demographics/gender"), auto_coder=swahili.DemographicCleaner.clean_gender)
                     ],
                     ws_code_string_value="kakuma_gender"
                 ),
@@ -81,7 +81,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     coda_dataset_id="WUSC-KEEP-II_kakuma_location",
                     engagement_db_dataset="location",
                     code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("location"), auto_coder=None),
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("demographics/location"), auto_coder=None),
                     ],
                     ws_code_string_value="kakuma_location"
                 ),
@@ -89,7 +89,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     coda_dataset_id="WUSC-KEEP-II_kakuma_nationality",
                     engagement_db_dataset="nationality",
                     code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("nationality"), auto_coder=None),
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("demographics/nationality"), auto_coder=None),
                     ],
                     ws_code_string_value="kakuma_nationality"
                 ),
@@ -97,7 +97,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     coda_dataset_id="WUSC-KEEP-II_kakuma_household_language",
                     engagement_db_dataset="household_language",
                     code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("household_language"), auto_coder=None),
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("demographics/household_language"), auto_coder=None),
                     ],
                     ws_code_string_value="kakuma_household_language"
                 ),
@@ -105,7 +105,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     coda_dataset_id="WUSC-KEEP-II_kakuma_age",
                     engagement_db_dataset="age",
                     code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("age"), auto_coder=lambda x:
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("demographics/age"), auto_coder=lambda x:
                         str(swahili.DemographicCleaner.clean_age_within_range(x))),
                     ],
                     ws_code_string_value="kakuma_age"
@@ -114,7 +114,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     coda_dataset_id="WUSC-KEEP-II_kakuma_disabled",
                     engagement_db_dataset="disabled",
                     code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("disabled"), auto_coder=None),
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("demographics/disabled"), auto_coder=None),
                     ],
                     ws_code_string_value="kakuma_disabled"
                 ),
@@ -122,7 +122,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     coda_dataset_id="LEAP_s02e01",
                     engagement_db_dataset="leap_s02e01",
                     code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("s02e01"), auto_coder=None, coda_code_schemes_count=3)
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqa/s02e01"), auto_coder=None, coda_code_schemes_count=3)
                     ],
                     ws_code_string_value="leap_s02e01"
                 ),
@@ -130,7 +130,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     coda_dataset_id="LEAP_s02e02",
                     engagement_db_dataset="leap_s02e02",
                     code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("s02e02"), auto_coder=None, coda_code_schemes_count=3)
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqa/s02e02"), auto_coder=None, coda_code_schemes_count=3)
                     ],
                     ws_code_string_value="leap_s02e02"
                 ),
@@ -138,7 +138,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     coda_dataset_id="LEAP_s02e03",
                     engagement_db_dataset="leap_s02e03",
                     code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("s02e03"), auto_coder=None, coda_code_schemes_count=3)
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqa/s02e03"), auto_coder=None, coda_code_schemes_count=3)
                     ],
                     ws_code_string_value="leap_s02e03"
                 ),
@@ -146,7 +146,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     coda_dataset_id="LEAP_s02e04",
                     engagement_db_dataset="leap_s02e04",
                     code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("s02e04"), auto_coder=None, coda_code_schemes_count=3)
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqa/s02e04"), auto_coder=None, coda_code_schemes_count=3)
                     ],
                     ws_code_string_value="leap_s02e04"
                 ),
@@ -154,7 +154,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     coda_dataset_id="LEAP_s02e05",
                     engagement_db_dataset="leap_s02e05",
                     code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("s02e05"), auto_coder=None, coda_code_schemes_count=3)
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqa/s02e05"), auto_coder=None, coda_code_schemes_count=3)
                     ],
                     ws_code_string_value="leap_s02e05"
                 ),
@@ -162,7 +162,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     coda_dataset_id="LEAP_s02e06",
                     engagement_db_dataset="leap_s02e06",
                     code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("s02e06"), auto_coder=None, coda_code_schemes_count=3)
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqa/s02e06"), auto_coder=None, coda_code_schemes_count=3)
                     ],
                     ws_code_string_value="leap_s02e06"
                 ),
@@ -170,7 +170,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     coda_dataset_id="LEAP_s02e07",
                     engagement_db_dataset="leap_s02e07",
                     code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("s02e07"), auto_coder=None, coda_code_schemes_count=3)
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqa/s02e07"), auto_coder=None, coda_code_schemes_count=3)
                     ],
                     ws_code_string_value="leap_s02e07"
                 ),
@@ -178,7 +178,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     coda_dataset_id="LEAP_s02e08",
                     engagement_db_dataset="leap_s02e08",
                     code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("s02e08"), auto_coder=None, coda_code_schemes_count=3)
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqa/s02e08"), auto_coder=None, coda_code_schemes_count=3)
                     ],
                     ws_code_string_value="leap_s02e08"
                 ),
@@ -186,7 +186,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     coda_dataset_id="LEAP_s02_lessons_learnt",
                     engagement_db_dataset="leap_s02_lessons_learnt",
                     code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("leap_s02_lessons_learnt"), auto_coder=None, coda_code_schemes_count=3)
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqa/leap_s02_lessons_learnt"), auto_coder=None, coda_code_schemes_count=3)
                     ],
                     ws_code_string_value="leap_s02_lessons_learnt"
                 ),
@@ -194,7 +194,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     coda_dataset_id="LEAP_s02_engagement_suggestions",
                     engagement_db_dataset="leap_s02_engagement_suggestions",
                     code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("leap_s02_engagement_suggestions"), auto_coder=None, coda_code_schemes_count=3)
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqa/leap_s02_engagement_suggestions"), auto_coder=None, coda_code_schemes_count=3)
                     ],
                     ws_code_string_value="leap_s02_engagement_suggestions"
                 ),
