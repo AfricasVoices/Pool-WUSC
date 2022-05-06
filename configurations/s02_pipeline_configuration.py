@@ -228,7 +228,6 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                 engagement_db_datasets=["leap_s02e01"],
                 dataset_type=DatasetTypes.RESEARCH_QUESTION_ANSWER,
                 raw_dataset="s02e01_raw",
-                dataset_name = "Leap_s02e01",
                 rapid_pro_non_relevant_field=ContactField(key="leap_s02e01_non_relevant_contacts",
                                                           label = "leap s02e01 non relevant contacts"), # label should be less than 36 char, non-numeric, with no special characters
                 coding_configs=[
@@ -242,7 +241,6 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                 engagement_db_datasets=["leap_s02e02"],
                 dataset_type=DatasetTypes.RESEARCH_QUESTION_ANSWER,
                 raw_dataset="s02e02_raw",
-                dataset_name = "Leap_s02e02",
                 rapid_pro_non_relevant_field=ContactField(key="leap_s02e02_non_relevant_contacts",
                                                           label="leap s02e02 non relevant contacts"),
                 coding_configs=[
@@ -256,7 +254,6 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                 engagement_db_datasets=["leap_s02e03"],
                 dataset_type=DatasetTypes.RESEARCH_QUESTION_ANSWER,
                 raw_dataset="s02e03_raw",
-                dataset_name = "Leap_s02e03",
                 rapid_pro_non_relevant_field=ContactField(key="leap_s02e03_non_relevant_contacts",
                                                           label = "leap s02e03 non relevant contacts"),
                 coding_configs=[
@@ -270,7 +267,6 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                 engagement_db_datasets=["leap_s02e04"],
                 dataset_type=DatasetTypes.RESEARCH_QUESTION_ANSWER,
                 raw_dataset="s02e04_raw",
-                dataset_name = "Leap_s02e04",
                 rapid_pro_non_relevant_field=ContactField(key="leap_s02e04_non_relevant_contacts",
                                                           label = "leap s02e04 non relevant contacts"),
                 coding_configs=[
@@ -284,7 +280,6 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                 engagement_db_datasets=["leap_s02e05"],
                 dataset_type=DatasetTypes.RESEARCH_QUESTION_ANSWER,
                 raw_dataset="s02e05_raw",
-                dataset_name = "Leap_s02e05",
                 rapid_pro_non_relevant_field=ContactField(key="leap_s02e05_non_relevant_contacts",
                                                           label="leap s02e05 non relevant contacts"),
                 coding_configs=[
@@ -298,7 +293,6 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                 engagement_db_datasets=["leap_s02e06"],
                 dataset_type=DatasetTypes.RESEARCH_QUESTION_ANSWER,
                 raw_dataset="s02e06_raw",
-                dataset_name = "Leap_s02e06",
                 rapid_pro_non_relevant_field=ContactField(key="leap_s02e06_non_relevant_contacts",
                                                           label="leap s02e06 non relevant contacts"),
                 coding_configs=[
@@ -312,7 +306,6 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                 engagement_db_datasets=["leap_s02e07"],
                 dataset_type=DatasetTypes.RESEARCH_QUESTION_ANSWER,
                 raw_dataset="s02e07_raw",
-                dataset_name = "Leap_s02e07",
                 rapid_pro_non_relevant_field=ContactField(key="leap_s02e07_non_relevant_contacts",
                                                           label="leap s02e07 non relevant contacts"),
                 coding_configs=[
@@ -326,7 +319,6 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                 engagement_db_datasets=["leap_s02e08"],
                 dataset_type=DatasetTypes.RESEARCH_QUESTION_ANSWER,
                 raw_dataset="s02e08_raw",
-                dataset_name = "Leap_s02e08",
                 rapid_pro_non_relevant_field=ContactField(key="leap_s02e08_non_relevant_contacts",
                                                           label="leap s02e08 non relevant contacts"),
                 coding_configs=[
@@ -339,7 +331,6 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
             AnalysisDatasetConfiguration(
                 engagement_db_datasets=["leap_s02_lessons_learnt"],
                 dataset_type=DatasetTypes.RESEARCH_QUESTION_ANSWER,
-                dataset_name="LEAP_s02_lessons_learnt",
                 raw_dataset="lessons_learnt_raw",
                 coding_configs=[
                     CodingConfiguration(
@@ -351,7 +342,6 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
             AnalysisDatasetConfiguration(
                 engagement_db_datasets=["leap_s02_engagement_suggestions"],
                 dataset_type=DatasetTypes.RESEARCH_QUESTION_ANSWER,
-                dataset_name="LEAP_s02_engagement_suggestions",
                 raw_dataset="engagement_suggestions_raw",
                 coding_configs=[
                     CodingConfiguration(
@@ -364,7 +354,6 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                 engagement_db_datasets=["gender"],
                 dataset_type=DatasetTypes.DEMOGRAPHIC,
                 raw_dataset="gender_raw",
-                dataset_name = "Leap_s02_gender",
                 coding_configs=[
                     CodingConfiguration(
                         code_scheme=load_code_scheme("demographics/gender"),
@@ -376,7 +365,6 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                 engagement_db_datasets=["nationality"],
                 dataset_type=DatasetTypes.DEMOGRAPHIC,
                 raw_dataset="nationality_raw",
-                dataset_name="Leap_s02_nationality",
                 coding_configs=[
                     CodingConfiguration(
                         code_scheme=load_code_scheme("demographics/nationality"),
@@ -388,7 +376,6 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                 engagement_db_datasets=["location"],
                 dataset_type=DatasetTypes.DEMOGRAPHIC,
                 raw_dataset="location_raw",
-                dataset_name = "Leap_s02_location",
                 coding_configs=[
                     CodingConfiguration(
                         code_scheme=load_code_scheme("demographics/location"),
@@ -399,7 +386,6 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
             AnalysisDatasetConfiguration(
                 engagement_db_datasets=["age"],
                 dataset_type=DatasetTypes.DEMOGRAPHIC,
-                dataset_name = "Leap_s02_age",
                 raw_dataset="age_raw",
                 coding_configs=[
                     CodingConfiguration(
@@ -426,7 +412,6 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                 engagement_db_datasets=["disabled"], #Todo standardise and rename this to disabled everywhere in s03
                 dataset_type=DatasetTypes.DEMOGRAPHIC,
                 raw_dataset="disabled_raw",
-                dataset_name="Leap_s02_disabled",
                 coding_configs=[
                     CodingConfiguration(
                         code_scheme=load_code_scheme("demographics/disabled"),
@@ -438,7 +423,6 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                 engagement_db_datasets=["household_language", "preffered_language"],
                 dataset_type=DatasetTypes.DEMOGRAPHIC,
                 raw_dataset="household_language_raw",
-                dataset_name="Leap_s02_preffered_language",
                 coding_configs=[
                     CodingConfiguration(
                         code_scheme=load_code_scheme("demographics/household_language"),
