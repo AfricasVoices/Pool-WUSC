@@ -211,22 +211,6 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
             project_users_file_url="gs://avf-project-datasets/2021/WUSC-LEAP/coda_users.json"
         )
     ),
-    rapid_pro_target=RapidProTarget(
-        rapid_pro=RapidProClientConfiguration(
-            domain="textit.com",
-            token_file_url="gs://avf-credentials/wusc-leap-kalobeyei-textit-token.txt"
-        ),
-        sync_config=EngagementDBToRapidProConfiguration(
-            consent_withdrawn_dataset=DatasetConfiguration(
-                engagement_db_datasets=[], #TODO: to be updated
-                rapid_pro_contact_field=ContactField(key="leap_s02_kalobeyei_consent_withdrawn",
-                                                     label="leap s02 kalobeyei consent withdrawn" )
-            ),
-            weekly_advert_contact_field=ContactField(key="leap_s02_weekly_advert_contacts",
-                                                     label="leap s02 weekly advert contacts"),
-            sync_advert_contacts = True,
-        )
-    ),
     analysis=AnalysisConfiguration(
         google_drive_upload=GoogleDriveUploadConfiguration(
             credentials_file_url="gs://avf-credentials/pipeline-runner-service-acct-avf-data-core-64cc71459fe7.json",
