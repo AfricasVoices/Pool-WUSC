@@ -130,7 +130,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     coda_dataset_id="LEAP_s02e01",
                     engagement_db_dataset="leap_s02e01",
                     code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqa/s02e01"), auto_coder=None, coda_code_schemes_count=3)
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqas/s02e01"), auto_coder=None, coda_code_schemes_count=3)
                     ],
                     ws_code_string_value="leap_s02e01"
                 ),
@@ -138,7 +138,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     coda_dataset_id="LEAP_s02e02",
                     engagement_db_dataset="leap_s02e02",
                     code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqa/s02e02"), auto_coder=None, coda_code_schemes_count=3)
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqas/s02e02"), auto_coder=None, coda_code_schemes_count=3)
                     ],
                     ws_code_string_value="leap_s02e02"
                 ),
@@ -146,7 +146,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     coda_dataset_id="LEAP_s02e03",
                     engagement_db_dataset="leap_s02e03",
                     code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqa/s02e03"), auto_coder=None, coda_code_schemes_count=3)
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqas/s02e03"), auto_coder=None, coda_code_schemes_count=3)
                     ],
                     ws_code_string_value="leap_s02e03"
                 ),
@@ -154,7 +154,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     coda_dataset_id="LEAP_s02e04",
                     engagement_db_dataset="leap_s02e04",
                     code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqa/s02e04"), auto_coder=None, coda_code_schemes_count=3)
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqas/s02e04"), auto_coder=None, coda_code_schemes_count=3)
                     ],
                     ws_code_string_value="leap_s02e04"
                 ),
@@ -162,7 +162,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     coda_dataset_id="LEAP_s02e05",
                     engagement_db_dataset="leap_s02e05",
                     code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqa/s02e05"), auto_coder=None, coda_code_schemes_count=3)
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqas/s02e05"), auto_coder=None, coda_code_schemes_count=3)
                     ],
                     ws_code_string_value="leap_s02e05"
                 ),
@@ -170,7 +170,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     coda_dataset_id="LEAP_s02e06",
                     engagement_db_dataset="leap_s02e06",
                     code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqa/s02e06"), auto_coder=None, coda_code_schemes_count=3)
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqas/s02e06"), auto_coder=None, coda_code_schemes_count=3)
                     ],
                     ws_code_string_value="leap_s02e06"
                 ),
@@ -178,7 +178,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     coda_dataset_id="LEAP_s02e07",
                     engagement_db_dataset="leap_s02e07",
                     code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqa/s02e07"), auto_coder=None, coda_code_schemes_count=3)
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqas/s02e07"), auto_coder=None, coda_code_schemes_count=3)
                     ],
                     ws_code_string_value="leap_s02e07"
                 ),
@@ -186,7 +186,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     coda_dataset_id="LEAP_s02e08",
                     engagement_db_dataset="leap_s02e08",
                     code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqa/s02e08"), auto_coder=None, coda_code_schemes_count=3)
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqas/s02e08"), auto_coder=None, coda_code_schemes_count=3)
                     ],
                     ws_code_string_value="leap_s02e08"
                 ),
@@ -194,7 +194,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     coda_dataset_id="LEAP_s02_lessons_learnt",
                     engagement_db_dataset="leap_s02_lessons_learnt",
                     code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqa/leap_s02_lessons_learnt"), auto_coder=None, coda_code_schemes_count=3)
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqas/leap_s02_lessons_learnt"), auto_coder=None, coda_code_schemes_count=3)
                     ],
                     ws_code_string_value="leap_s02_lessons_learnt"
                 ),
@@ -202,7 +202,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     coda_dataset_id="LEAP_s02_engagement_suggestions",
                     engagement_db_dataset="leap_s02_engagement_suggestions",
                     code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqa/leap_s02_engagement_suggestions"), auto_coder=None, coda_code_schemes_count=3)
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqas/leap_s02_engagement_suggestions"), auto_coder=None, coda_code_schemes_count=3)
                     ],
                     ws_code_string_value="leap_s02_engagement_suggestions"
                 ),
@@ -249,7 +249,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                                                           label = "leap s02e01 non relevant contacts"), # label should be less than 36 char, non-numeric, with no special characters
                 coding_configs=[
                     CodingConfiguration(
-                        code_scheme=load_code_scheme("s02e01"),
+                        code_scheme=load_code_scheme("rqas/s02e01"),
                         analysis_dataset="s02e01"
                     )
                 ]
@@ -263,7 +263,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                                                           label="leap s02e02 non relevant contacts"),
                 coding_configs=[
                     CodingConfiguration(
-                        code_scheme=load_code_scheme("s02e02"),
+                        code_scheme=load_code_scheme("rqas/s02e02"),
                         analysis_dataset="s02e02"
                     )
                 ]
@@ -277,7 +277,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                                                           label = "leap s02e03 non relevant contacts"),
                 coding_configs=[
                     CodingConfiguration(
-                        code_scheme=load_code_scheme("s02e03"),
+                        code_scheme=load_code_scheme("rqas/s02e03"),
                         analysis_dataset="s02e03"
                     )
                 ]
@@ -291,7 +291,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                                                           label = "leap s02e04 non relevant contacts"),
                 coding_configs=[
                     CodingConfiguration(
-                        code_scheme=load_code_scheme("s02e04"),
+                        code_scheme=load_code_scheme("rqas/s02e04"),
                         analysis_dataset="s02e04"
                     )
                 ]
@@ -305,7 +305,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                                                           label="leap s02e05 non relevant contacts"),
                 coding_configs=[
                     CodingConfiguration(
-                        code_scheme=load_code_scheme("s02e05"),
+                        code_scheme=load_code_scheme("rqas/s02e05"),
                         analysis_dataset="s02e05"
                     )
                 ]
@@ -319,7 +319,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                                                           label="leap s02e06 non relevant contacts"),
                 coding_configs=[
                     CodingConfiguration(
-                        code_scheme=load_code_scheme("s02e06"),
+                        code_scheme=load_code_scheme("rqas/s02e06"),
                         analysis_dataset="s02e06"
                     )
                 ]
@@ -333,7 +333,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                                                           label="leap s02e07 non relevant contacts"),
                 coding_configs=[
                     CodingConfiguration(
-                        code_scheme=load_code_scheme("s02e07"),
+                        code_scheme=load_code_scheme("rqas/s02e07"),
                         analysis_dataset="s02e07"
                     )
                 ]
@@ -347,7 +347,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                                                           label="leap s02e08 non relevant contacts"),
                 coding_configs=[
                     CodingConfiguration(
-                        code_scheme=load_code_scheme("s02e08"),
+                        code_scheme=load_code_scheme("rqas/s02e08"),
                         analysis_dataset="s02e08"
                     )
                 ]
@@ -359,7 +359,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                 raw_dataset="lessons_learnt_raw",
                 coding_configs=[
                     CodingConfiguration(
-                        code_scheme=load_code_scheme("leap_s02_lessons_learnt"),
+                        code_scheme=load_code_scheme("rqas/leap_s02_lessons_learnt"),
                         analysis_dataset="lessons_learnt"
                     )
                 ]
@@ -371,7 +371,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                 raw_dataset="engagement_suggestions_raw",
                 coding_configs=[
                     CodingConfiguration(
-                        code_scheme=load_code_scheme("leap_s02_engagement_suggestions"),
+                        code_scheme=load_code_scheme("rqas/leap_s02_engagement_suggestions"),
                         analysis_dataset="engagement_suggestions"
                     )
                 ]
@@ -383,7 +383,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                 dataset_name = "Leap_s02_gender",
                 coding_configs=[
                     CodingConfiguration(
-                        code_scheme=load_code_scheme("gender"),
+                        code_scheme=load_code_scheme("demographics/gender"),
                         analysis_dataset="gender"
                     )
                 ]
@@ -395,7 +395,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                 dataset_name="Leap_s02_nationality",
                 coding_configs=[
                     CodingConfiguration(
-                        code_scheme=load_code_scheme("nationality"),
+                        code_scheme=load_code_scheme("demographics/nationality"),
                         analysis_dataset="nationality"
                     )
                 ]
@@ -407,7 +407,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                 dataset_name = "Leap_s02_location",
                 coding_configs=[
                     CodingConfiguration(
-                        code_scheme=load_code_scheme("location"),
+                        code_scheme=load_code_scheme("demographics/location"),
                         analysis_dataset="location"
                     )
                 ]
@@ -419,11 +419,11 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                 raw_dataset="age_raw",
                 coding_configs=[
                     CodingConfiguration(
-                        code_scheme=load_code_scheme("age"),
+                        code_scheme=load_code_scheme("demographics/age"),
                         analysis_dataset="age"
                     ),
                     CodingConfiguration(
-                        code_scheme=load_code_scheme("age_category"),
+                        code_scheme=load_code_scheme("demographics/age_category"),
                         analysis_dataset="age_category",
                         age_category_config=AgeCategoryConfiguration(
                             age_analysis_dataset="age",
@@ -445,7 +445,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                 dataset_name="Leap_s02_disabled",
                 coding_configs=[
                     CodingConfiguration(
-                        code_scheme=load_code_scheme("disabled"),
+                        code_scheme=load_code_scheme("demographics/disabled"),
                         analysis_dataset="disabled"
                     )
                 ]
@@ -457,7 +457,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                 dataset_name="Leap_s02_preffered_language",
                 coding_configs=[
                     CodingConfiguration(
-                        code_scheme=load_code_scheme("household_language"),
+                        code_scheme=load_code_scheme("demographics/household_language"),
                         analysis_dataset="preffered_language"
                     )
                 ]
