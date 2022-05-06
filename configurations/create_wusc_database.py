@@ -104,6 +104,14 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     ],
                     ws_code_string_value="kakuma age"
                 ),
+                CodaDatasetConfiguration(
+                    coda_dataset_id="WUSC_kakuma_old_rqa_datasets",
+                    engagement_db_dataset="kakuma_old_rqa_datasets",
+                    code_scheme_configurations=[
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("kakuma_old_rqa_datasets"), auto_coder=None)
+                    ],
+                    ws_code_string_value="kakuma old rqa datasets"
+                ),
             ],
             ws_correct_dataset_code_scheme=load_code_scheme("ws_correct_dataset"),
             project_users_file_url="gs://avf-project-datasets/2021/WUSC-LEAP/coda_users.json"
