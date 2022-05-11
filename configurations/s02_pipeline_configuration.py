@@ -215,7 +215,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
     analysis=AnalysisConfiguration(
         google_drive_upload=GoogleDriveUploadConfiguration(
             credentials_file_url="gs://avf-credentials/pipeline-runner-service-acct-avf-data-core-64cc71459fe7.json",
-            drive_dir="leap_s02_analysis_outputs"
+            drive_dir="leap_s02_analysis_outputs/fixed_history"
         ),
         membership_group_configuration=MembershipGroupConfiguration(
             membership_group_csv_urls={
