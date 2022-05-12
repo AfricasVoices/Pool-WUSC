@@ -1,0 +1,166 @@
+{
+  "SchemeID": "Scheme-fffffc6e",
+  "Name": "DADAAB WS - Correct Dataset",
+  "Version": "0.0.0.1",
+  "Codes": [
+    {
+      "CodeID": "code-9919ab80",
+      "CodeType": "Normal",
+      "DisplayText": "dadaab household language",
+      "StringValue": "dadaab_household_language",
+      "NumericValue": 0,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "dadaab household language"
+      ]
+    },
+    {
+      "CodeID": "code-0498b4c2",
+      "CodeType": "Normal",
+      "DisplayText": "dadaab age",
+      "StringValue": "dadaab_age",
+      "NumericValue": 1,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "dadaab age"
+      ]
+    },
+    {
+      "CodeID": "code-bc414c1a",
+      "CodeType": "Normal",
+      "DisplayText": "dadaab gender",
+      "StringValue": "dadaab_gender",
+      "NumericValue": 2,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "dadaab gender"
+      ]
+    },
+    {
+      "CodeID": "code-6c0702bb",
+      "CodeType": "Normal",
+      "DisplayText": "dadaab location",
+      "StringValue": "dadaab_location",
+      "NumericValue": 3,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "dadaab location"
+      ]
+    },
+    {
+      "CodeID": "code-762e2db9",
+      "CodeType": "Normal",
+      "DisplayText": "dadaab nationality",
+      "StringValue": "dadaab_nationality",
+      "NumericValue": 4,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "dadaab nationality"
+      ]
+    },
+    {
+      "CodeID": "code-685c35a0",
+      "CodeType": "Normal",
+      "DisplayText": "dadaab s01e01",
+      "StringValue": "dadaab_s01e01",
+      "NumericValue": 17,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "dadaab s01e01"
+      ]
+    },
+    {
+      "CodeID": "code-12003b9b",
+      "CodeType": "Normal",
+      "DisplayText": "dadaab s01e02",
+      "StringValue": "dadaab_s01e02",
+      "NumericValue": 18,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "dadaab s01e02"
+      ]
+    },
+    {
+      "CodeID": "code-e3dc7823",
+      "CodeType": "Normal",
+      "DisplayText": "dadaab s01e03",
+      "StringValue": "dadaab_s01e03",
+      "NumericValue": 19,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "dadaab s01e03"
+      ]
+    },
+    {
+      "CodeID": "code-1b2e6882",
+      "CodeType": "Normal",
+      "DisplayText": "dadaab s01e04",
+      "StringValue": "dadaab_s01e04",
+      "NumericValue": 20,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "dadaab s01e04"
+      ]
+    },
+    {
+      "CodeID": "code-401b6cc9",
+      "CodeType": "Normal",
+      "DisplayText": "dadaab s01e05",
+      "StringValue": "dadaab_s01e05",
+      "NumericValue": 21,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "dadaab s01e05"
+      ]
+    },
+    {
+      "CodeID": "code-afc32d63",
+      "CodeType": "Normal",
+      "DisplayText": "dadaab s01e06",
+      "StringValue": "dadaab_s01e06",
+      "NumericValue": 22,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "dadaab s01e06"
+      ]
+    },
+    {
+      "CodeID": "code-1b262084",
+      "CodeType": "Normal",
+      "DisplayText": "dadaab s01e07",
+      "StringValue": "dadaab_s01e07",
+      "NumericValue": 23,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "dadaab s01e07"
+      ]
+    },
+    {
+      "CodeID": "code-NC-42f1d983",
+      "CodeType": "Control",
+      "ControlCode": "NC",
+      "DisplayText": "NC (not coded)",
+      "NumericValue": -30,
+      "StringValue": "NC",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-NR-5e3eee23",
+      "CodeType": "Control",
+      "ControlCode": "NR",
+      "DisplayText": "NR (not reviewed)",
+      "NumericValue": -40,
+      "StringValue": "NR",
+      "VisibleInCoda": false
+    },
+    {
+      "CodeID": "code-CE-016c1e22",
+      "CodeType": "Control",
+      "ControlCode": "CE",
+      "DisplayText": "CE (coding error)",
+      "NumericValue": -110,
+      "StringValue": "CE",
+      "VisibleInCoda": false
+    }
+  ]
+}
