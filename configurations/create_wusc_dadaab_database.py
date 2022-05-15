@@ -64,7 +64,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     coda_dataset_id="WUSC-KEEP-II_dadaab_location",
                     engagement_db_dataset="location",
                     code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("demographics/location"), auto_coder=None),
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("demographics/dadaab_location"), auto_coder=None),
                     ],
                     ws_code_string_value="dadaab location"
                 ),
@@ -72,7 +72,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     coda_dataset_id="WUSC-KEEP-II_dadaab_household_language",
                     engagement_db_dataset="household_language",
                     code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("demographics/household_language"), auto_coder=None),
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("demographics/dadaab_household_language"), auto_coder=None),
                     ],
                     ws_code_string_value="dadaab household language"
                 ),
@@ -89,7 +89,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     coda_dataset_id="WUSC-KEEP-II_dadaab_nationality",
                     engagement_db_dataset="nationality",
                     code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("demographics/age"), auto_coder=lambda x:
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("demographics/nationality"), auto_coder=lambda x:
                         str(swahili.DemographicCleaner.clean_age_within_range(x))),
                     ],
                     ws_code_string_value="dadaab nationality"
