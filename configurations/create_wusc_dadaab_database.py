@@ -85,6 +85,15 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     ],
                     ws_code_string_value="dadaab age"
                 ),
+                CodaDatasetConfiguration(
+                    coda_dataset_id="WUSC-KEEP-II_dadaab_nationality",
+                    engagement_db_dataset="nationality",
+                    code_scheme_configurations=[
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("demographics/age"), auto_coder=lambda x:
+                        str(swahili.DemographicCleaner.clean_age_within_range(x))),
+                    ],
+                    ws_code_string_value="dadaab nationality"
+                ),
             ],
             ws_correct_dataset_code_scheme=load_code_scheme("dadaab_ws_correct_dataset")
         )
