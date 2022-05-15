@@ -100,6 +100,6 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
     ),
     archive_configuration=ArchiveConfiguration(
         archive_upload_bucket="gs://pipeline-execution-backup-archive",
-        bucket_dir_path="2021/WUSC_LEAP"
+        bucket_dir_path="2022/CREATE-WUSC-POOL/"
     )
 )
