@@ -94,8 +94,18 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     ],
                     ws_code_string_value="dadaab nationality"
                 ),
+                CodaDatasetConfiguration(
+                    coda_dataset_id="WUSC_dadaab_old_rqa_datasets",
+                    engagement_db_dataset="dadaab_old_rqa_datasets",
+                    code_scheme_configurations=[
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("dadaab_old_rqa_datasets"), auto_coder=None)
+                    ],
+                    ws_code_string_value="dadaab old rqa datasets"
+                ),
             ],
-            ws_correct_dataset_code_scheme=load_code_scheme("dadaab_ws_correct_dataset")
+            ws_correct_dataset_code_scheme=load_code_scheme("dadaab_ws_correct_dataset"),
+            project_users_file_url="gs://avf-project-datasets/2021/WUSC-LEAP/coda_users.json",
+            default_ws_dataset="dadaab_old_rqa_datasets"
         )
     ),
     archive_configuration=ArchiveConfiguration(
