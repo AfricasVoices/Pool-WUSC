@@ -19,7 +19,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
         RapidProSource(
             rapid_pro=RapidProClientConfiguration(
                 domain="textit.com",
-                token_file_url="gs://avf-credentials/wusc-keep-II-kakuma-textit-token.txt"
+                token_file_url="gs://avf-credentials/wusc-keep-II-dadaab-textit-token.txt"
             ),
             sync_config=RapidProToEngagementDBConfiguration(
                 flow_result_configurations=[
