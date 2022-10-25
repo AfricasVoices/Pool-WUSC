@@ -118,6 +118,36 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
             default_ws_dataset="kakuma_old_rqa_datasets"
         )
     ),
+    rapid_pro_target=RapidProTarget(
+        rapid_pro=RapidProClientConfiguration(
+            domain="textit.com",
+            token_file_url="gs://avf-credentials/wusc-leap-kalobeyei-textit-token.txt"
+        ),
+        sync_config=EngagementDBToRapidProConfiguration(
+            normal_datasets=[
+                DatasetConfiguration(
+                    engagement_db_datasets=["age"],
+                    rapid_pro_contact_field=ContactField(key="pool_wusc_age", label="pool wusc age")
+                ),
+                DatasetConfiguration(
+                    engagement_db_datasets=["gender"],
+                    rapid_pro_contact_field=ContactField(key="pool_wusc_gender", label="pool wusc gender")
+                ),
+                DatasetConfiguration(
+                    engagement_db_datasets=["location"],
+                    rapid_pro_contact_field=ContactField(key="pool_wusc_location", label="pool wusc location")
+                ),
+                DatasetConfiguration(
+                    engagement_db_datasets=["disabled"],
+                    rapid_pro_contact_field=ContactField(key="pool_wusc_disabled", label="pool wusc disabled")
+                ),
+            ],
+            consent_withdrawn_dataset=DatasetConfiguration(
+                engagement_db_datasets=["age", "gender", "location", "disabled", "kakuma_old_rqa_datasets"],
+                rapid_pro_contact_field=ContactField(key="pool_wusc_consent_withdrawn", label="pool wusc consent withdrawn")
+            ),
+        )
+    ),
     archive_configuration=ArchiveConfiguration(
         archive_upload_bucket="gs://pipeline-execution-backup-archive",
         bucket_dir_path="2022/POOL-WUSC/"
