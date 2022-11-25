@@ -107,7 +107,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     coda_dataset_id="LEAP_s04e01",
                     engagement_db_dataset="leap_s04e01",
                     code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("leap_s04e01"),
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("s04e01"),
                                                 auto_coder=None)
                     ],
                     ws_code_match_value="leap s04e01"
@@ -116,7 +116,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     coda_dataset_id="LEAP_s04e02",
                     engagement_db_dataset="leap_s04e02",
                     code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("leap_s04e02"),
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("s04e02"),
                                                 auto_coder=None)
                     ],
                     ws_code_match_value="leap s04e02"
@@ -125,7 +125,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     coda_dataset_id="LEAP_s04e03",
                     engagement_db_dataset="leap_s04e03",
                     code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("leap_s04e03"),
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("s04e03"),
                                                 auto_coder=None)
                     ],
                     ws_code_match_value="leap s04e03"
@@ -134,7 +134,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     coda_dataset_id="LEAP_s04e04",
                     engagement_db_dataset="leap_s04e04",
                     code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("leap_s04e04"),
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("s04e04"),
                                                 auto_coder=None)
                     ],
                     ws_code_match_value="leap s04e04"
@@ -143,7 +143,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     coda_dataset_id="LEAP_s04e05",
                     engagement_db_dataset="leap_s04e05",
                     code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("leap_s04e05"),
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("s04e05"),
                                                 auto_coder=None)
                     ],
                     ws_code_match_value="leap s04e05"
@@ -152,7 +152,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     coda_dataset_id="LEAP_s04e06",
                     engagement_db_dataset="leap_s04e06",
                     code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("leap_s04e06"),
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("s04e06"),
                                                 auto_coder=None)
                     ],
                     ws_code_match_value="leap s04e06"
