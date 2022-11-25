@@ -130,7 +130,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                 raw_dataset="leap_s04e01_raw",
                 coding_configs=[
                     CodingConfiguration(
-                        code_scheme=load_code_scheme("rqas/leap_s04/leap_s04e01"),
+                        code_scheme=load_code_scheme("rqas/leap_s04/s04e01"),
                         analysis_dataset="s04e01"
                     )
                 ],
@@ -152,7 +152,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                 raw_dataset="leap_s04e03_raw",
                 coding_configs=[
                     CodingConfiguration(
-                        code_scheme=load_code_scheme("rqas/leap_s04/leap_s04e03"),
+                        code_scheme=load_code_scheme("rqas/leap_s04/s04e03"),
                         analysis_dataset="s04e03"
                     )
                 ],
@@ -163,7 +163,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                 raw_dataset="leap_s04e04_raw",
                 coding_configs=[
                     CodingConfiguration(
-                        code_scheme=load_code_scheme("rqas/leap_s04/leap_s04e04"),
+                        code_scheme=load_code_scheme("rqas/leap_s04/s04e04"),
                         analysis_dataset="s04e04"
                     )
                 ],
@@ -174,7 +174,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                 raw_dataset="leap_s04e05_raw",
                 coding_configs=[
                     CodingConfiguration(
-                        code_scheme=load_code_scheme("rqas/leap_s04/leap_s04e05"),
+                        code_scheme=load_code_scheme("rqas/leap_s04/s04e05"),
                         analysis_dataset="s04e05"
                     )
                 ],
@@ -185,7 +185,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                 raw_dataset="leap_s04e06_raw",
                 coding_configs=[
                     CodingConfiguration(
-                        code_scheme=load_code_scheme("rqas/leap_s04/leap_s04e06"),
+                        code_scheme=load_code_scheme("rqas/leap_s04/s04e06"),
                         analysis_dataset="s04e06"
                     )
                 ],
