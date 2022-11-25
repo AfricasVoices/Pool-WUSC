@@ -99,7 +99,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     engagement_db_dataset="kakuma_disabled",
                     code_scheme_configurations=[
                         CodeSchemeConfiguration(code_scheme=load_code_scheme("demographics/disabled"),
-                                                auto_coder=lambda x:
+                                                auto_coder=None)
                     ],
                     ws_code_string_value="kakuma disabled"
                 ),
