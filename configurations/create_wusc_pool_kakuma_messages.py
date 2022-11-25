@@ -57,12 +57,20 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
             ),
             sync_config=RapidProToEngagementDBConfiguration(
                 flow_result_configurations=[
-                    FlowResultConfiguration("wusc_leap_s01_kalobeyei_demogs", "household language",
-                                            "kakuma_household_language"),
+                    FlowResultConfiguration("wusc_leap_s01_kalobeyei_demogs", "preffered_language",
+                                            "kakuma_preffered_language"),
                     FlowResultConfiguration("wusc_leap_s01_kalobeyei_demogs", "age", "kakuma_age"),
                     FlowResultConfiguration("wusc_leap_s01_kalobeyei_demogs", "location", "kakuma_location"),
                     FlowResultConfiguration("wusc_leap_s01_kalobeyei_demogs", "nationality", "kakuma_nationality"),
-                    FlowResultConfiguration("wusc_leap_s01_kalobeyei_demogs", "gender", "kakuma_gender")
+                    FlowResultConfiguration("wusc_leap_s01_kalobeyei_demogs", "gender", "kakuma_gender"),
+
+                    FlowResultConfiguration("wusc_leap_s02_kalobeyei_demogs", "household language",
+                                            "kakuma_household_language"),
+                    FlowResultConfiguration("wusc_leap_s02_kalobeyei_demogs", "age", "kakuma_age"),
+                    FlowResultConfiguration("wusc_leap_s02_kalobeyei_demogs", "location", "kakuma_location"),
+                    FlowResultConfiguration("wusc_leap_s02_kalobeyei_demogs", "nationality", "kakuma_nationality"),
+                    FlowResultConfiguration("wusc_leap_s02_kalobeyei_demogs", "gender", "kakuma_gender"),
+                    FlowResultConfiguration("wusc_leap_s02_kalobeyei_demogs", "disability", "kakuma_disabled"),
                 ]
             )
         )
@@ -126,24 +134,33 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
         sync_config=EngagementDBToRapidProConfiguration(
             normal_datasets=[
                 DatasetConfiguration(
-                    engagement_db_datasets=["age"],
+                    engagement_db_datasets=["kakuma_age"],
                     rapid_pro_contact_field=ContactField(key="pool_wusc_age", label="pool wusc age")
                 ),
                 DatasetConfiguration(
-                    engagement_db_datasets=["gender"],
+                    engagement_db_datasets=["kakuma_gender"],
                     rapid_pro_contact_field=ContactField(key="pool_wusc_gender", label="pool wusc gender")
                 ),
                 DatasetConfiguration(
-                    engagement_db_datasets=["location"],
+                    engagement_db_datasets=["kakuma_location"],
                     rapid_pro_contact_field=ContactField(key="pool_wusc_location", label="pool wusc location")
                 ),
                 DatasetConfiguration(
-                    engagement_db_datasets=["disabled"],
+                    engagement_db_datasets=["kakuma_disabled"],
                     rapid_pro_contact_field=ContactField(key="pool_wusc_disabled", label="pool wusc disabled")
+                ),
+                DatasetConfiguration(
+                    engagement_db_datasets=["kakuma_nationality"],
+                    rapid_pro_contact_field=ContactField(key="pool_wusc_disabled", label="pool wusc nationality")
+                ),
+                DatasetConfiguration(
+                    engagement_db_datasets=["kakuma_preffered_age"],
+                    rapid_pro_contact_field=ContactField(key="pool_wusc_preffered_language", label="pool wusc preffered language")
                 ),
             ],
             consent_withdrawn_dataset=DatasetConfiguration(
-                engagement_db_datasets=["age", "gender", "location", "disabled", "kakuma_old_rqa_datasets"],
+                engagement_db_datasets=["kakuma_age", "kakuma_gender", "kakuma_location", "kakuma_disabled",
+                                        "kakuma_preffered_age", "kakuma_nationality", "kakuma_old_rqa_datasets"],
                 rapid_pro_contact_field=ContactField(key="pool_wusc_consent_withdrawn", label="pool wusc consent withdrawn")
             ),
         )
