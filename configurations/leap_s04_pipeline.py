@@ -65,7 +65,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                         CodeSchemeConfiguration(code_scheme=load_code_scheme("demographics/gender"),
                                                 auto_coder=swahili.DemographicCleaner.clean_gender)
                     ],
-                    ws_code_string_value="kakuma gender"
+                    ws_code_match_value="kakuma gender"
                 ),
                 CodaDatasetConfiguration(
                     coda_dataset_id="WUSC-KEEP-II_kakuma_location",
@@ -74,7 +74,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                         CodeSchemeConfiguration(code_scheme=load_code_scheme("demographics/location"),
                                                 auto_coder=None),
                     ],
-                    ws_code_string_value="kakuma location"
+                    ws_code_match_value="kakuma location"
                 ),
                 CodaDatasetConfiguration(
                     coda_dataset_id="WUSC-KEEP-II_kakuma_preffered language",
@@ -83,7 +83,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                         CodeSchemeConfiguration(code_scheme=load_code_scheme("demographics/kakuma_preffered_language"),
                                                 auto_coder=None),
                     ],
-                    ws_code_string_value="kakuma preffered language"
+                    ws_code_match_value="kakuma preffered language"
                 ),
                 CodaDatasetConfiguration(
                     coda_dataset_id="WUSC-KEEP-II_kakuma_age",
@@ -92,7 +92,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                         CodeSchemeConfiguration(code_scheme=load_code_scheme("demographics/age"),
                                                 auto_coder=lambda x:str(swahili.DemographicCleaner.clean_age_within_range(x))),
                     ],
-                    ws_code_string_value="kakuma age"
+                    ws_code_match_value="kakuma age"
                 ),
                 CodaDatasetConfiguration(
                     coda_dataset_id="WUSC-KEEP-II_kakuma_disabled",
@@ -101,7 +101,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                         CodeSchemeConfiguration(code_scheme=load_code_scheme("demographics/disabled"),
                                                 auto_coder=None)
                     ],
-                    ws_code_string_value="kakuma disabled"
+                    ws_code_match_value="kakuma disabled"
                 ),
                 CodaDatasetConfiguration(
                     coda_dataset_id="WUSC_kakuma_old_rqa_datasets",
@@ -110,7 +110,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                         CodeSchemeConfiguration(code_scheme=load_code_scheme("kakuma_old_rqa_datasets"),
                                                 auto_coder=None)
                     ],
-                    ws_code_string_value="kakuma old rqa datasets"
+                    ws_code_match_value="kakuma old rqa datasets"
                 ),
             ],
             ws_correct_dataset_code_scheme=load_code_scheme("ws_correct_dataset"),
