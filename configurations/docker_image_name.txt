@@ -1,1 +1,2 @@
-ghcr.io/africasvoices/engagement-data-pipeline:fix_telegram_uuid_formart
+ghcr.io/africasvoices/engagement-data-pipeline:v3.0.0
+
