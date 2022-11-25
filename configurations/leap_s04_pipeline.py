@@ -77,10 +77,10 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     ws_code_match_value="kakuma location"
                 ),
                 CodaDatasetConfiguration(
-                    coda_dataset_id="WUSC-KEEP-II_kakuma_preffered language",
+                    coda_dataset_id="WUSC-KEEP-II_kakuma_preffered_language",
                     engagement_db_dataset="kakuma_preffered_language",
                     code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("demographics/kakuma_preffered_language"),
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("demographics/preffered_language"),
                                                 auto_coder=None),
                     ],
                     ws_code_match_value="kakuma preffered language"
@@ -209,6 +209,17 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     CodingConfiguration(
                         code_scheme=load_code_scheme("demographics/location"),
                         analysis_dataset="location"
+                    ),
+                ]
+            ),
+            AnalysisDatasetConfiguration(
+                engagement_db_datasets=["kakuma_preffered_language"],
+                dataset_type=DatasetTypes.DEMOGRAPHIC,
+                raw_dataset="preffered_language_raw",
+                coding_configs=[
+                    CodingConfiguration(
+                        code_scheme=load_code_scheme("demographics/preffered_language"),
+                        analysis_dataset="preffered_language"
                     ),
                 ]
             ),
