@@ -244,7 +244,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                 coding_configs=[
                     CodingConfiguration(
                         code_scheme=load_code_scheme("demographics/nationality"),
-                        analysis_dataset="location"
+                        analysis_dataset="nationality"
                     ),
                 ]
             ),
@@ -270,7 +270,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
         sync_config=EngagementDBToRapidProConfiguration(
             normal_datasets=[
                 DatasetConfiguration(
-                    engagement_db_datasets=["kakuma_preffered_age"],
+                    engagement_db_datasets=["kakuma_preffered_language"],
                     rapid_pro_contact_field=ContactField(key="pool_wusc_age", label="pool wusc age")
                 ),
                 DatasetConfiguration(
@@ -282,16 +282,16 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     rapid_pro_contact_field=ContactField(key="pool_wusc_location", label="pool wusc location")
                 ),
                 DatasetConfiguration(
-                    engagement_db_datasets=["kakuma_disabled"],
-                    rapid_pro_contact_field=ContactField(key="pool_wusc_disabled", label="pool wusc disabled")
-                ),
-                DatasetConfiguration(
                     engagement_db_datasets=["kakuma_nationality"],
                     rapid_pro_contact_field=ContactField(key="pool_wusc_disabled", label="pool wusc nationality")
                 ),
                 DatasetConfiguration(
                     engagement_db_datasets=["kakuma_age"],
-                    rapid_pro_contact_field=ContactField(key="pool_wusc_age", label="pool wusc age")
+                    rapid_pro_contact_field=ContactField(key="pool_wusc_age", label="pool wusc age"),
+                ),
+                DatasetConfiguration(
+                    engagement_db_datasets=["kakuma_disabled"],
+                    rapid_pro_contact_field=ContactField(key="pool_wusc_disabled", label="pool wusc disabled")
                 ),
             ],
             consent_withdrawn_dataset=DatasetConfiguration(
