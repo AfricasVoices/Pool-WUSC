@@ -68,15 +68,6 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     ws_code_match_value="kakuma gender"
                 ),
                 CodaDatasetConfiguration(
-                    coda_dataset_id="WUSC-KEEP-II_kakuma_location",
-                    engagement_db_dataset="kakuma_location",
-                    code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("demographics/location"),
-                                                auto_coder=None),
-                    ],
-                    ws_code_match_value="kakuma location"
-                ),
-                CodaDatasetConfiguration(
                     coda_dataset_id="WUSC-KEEP-II_kakuma_preffered_language",
                     engagement_db_dataset="kakuma_preffered_language",
                     code_scheme_configurations=[
@@ -104,13 +95,67 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     ws_code_match_value="kakuma disabled"
                 ),
                 CodaDatasetConfiguration(
-                    coda_dataset_id="WUSC_kakuma_old_rqa_datasets",
-                    engagement_db_dataset="kakuma_old_rqa_datasets",
+                    coda_dataset_id="WUSC-KEEP-II_kakuma_location",
+                    engagement_db_dataset="kakuma_location",
                     code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("kakuma_old_rqa_datasets"),
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("demographics/location"),
+                                                auto_coder=None),
+                    ],
+                    ws_code_match_value="kakuma location"
+                ),
+                CodaDatasetConfiguration(
+                    coda_dataset_id="LEAP_s04e01",
+                    engagement_db_dataset="leap_s04e01",
+                    code_scheme_configurations=[
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("leap_s04e01"),
                                                 auto_coder=None)
                     ],
-                    ws_code_match_value="kakuma old rqa datasets"
+                    ws_code_match_value="leap s04e01"
+                ),
+                CodaDatasetConfiguration(
+                    coda_dataset_id="LEAP_s04e02",
+                    engagement_db_dataset="leap_s04e02",
+                    code_scheme_configurations=[
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("leap_s04e02"),
+                                                auto_coder=None)
+                    ],
+                    ws_code_match_value="leap s04e02"
+                ),
+                CodaDatasetConfiguration(
+                    coda_dataset_id="LEAP_s04e03",
+                    engagement_db_dataset="leap_s04e03",
+                    code_scheme_configurations=[
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("leap_s04e03"),
+                                                auto_coder=None)
+                    ],
+                    ws_code_match_value="leap s04e03"
+                ),
+                CodaDatasetConfiguration(
+                    coda_dataset_id="LEAP_s04e04",
+                    engagement_db_dataset="leap_s04e04",
+                    code_scheme_configurations=[
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("leap_s04e04"),
+                                                auto_coder=None)
+                    ],
+                    ws_code_match_value="leap s04e04"
+                ),
+                CodaDatasetConfiguration(
+                    coda_dataset_id="LEAP_s04e05",
+                    engagement_db_dataset="leap_s04e05",
+                    code_scheme_configurations=[
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("leap_s04e05"),
+                                                auto_coder=None)
+                    ],
+                    ws_code_match_value="leap s04e05"
+                ),
+                CodaDatasetConfiguration(
+                    coda_dataset_id="LEAP_s04e06",
+                    engagement_db_dataset="leap_s04e06",
+                    code_scheme_configurations=[
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("leap_s04e06"),
+                                                auto_coder=None)
+                    ],
+                    ws_code_match_value="leap s04e06"
                 ),
             ],
             ws_correct_dataset_code_scheme=load_code_scheme("ws_correct_dataset"),
@@ -141,7 +186,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                 raw_dataset="leap_s04e02_raw",
                 coding_configs=[
                     CodingConfiguration(
-                        code_scheme=load_code_scheme("rqas/leap_s04/leap_s04e02"),
+                        code_scheme=load_code_scheme("rqas/leap_s04/s04e02"),
                         analysis_dataset="s04e02"
                     )
                 ],
