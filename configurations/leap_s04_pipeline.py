@@ -327,7 +327,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
             normal_datasets=[
                 DatasetConfiguration(
                     engagement_db_datasets=["kakuma_preffered_language"],
-                    rapid_pro_contact_field=ContactField(key="pool_wusc_age", label="pool wusc age")
+                    rapid_pro_contact_field=ContactField(key="pool_wusc_preferred_language", label="pool_wusc_preferred_language")
                 ),
                 DatasetConfiguration(
                     engagement_db_datasets=["kakuma_gender"],
