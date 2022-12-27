@@ -3,7 +3,62 @@
   "Name": "LEAP S04E04",
   "Version": "0.0.0.1",
   "Codes": [
-
+    {
+      "CodeID": "code-6dacdd5e",
+      "CodeType": "Normal",
+      "DisplayText": "form groups",
+      "NumericValue": 1,
+      "StringValue": "form_groups",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-cdd30018",
+      "CodeType": "Normal",
+      "DisplayText": "looking for or securing a job",
+      "NumericValue": 2,
+      "StringValue": "looking_for_or_securing_a_job",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-034d6f20",
+      "CodeType": "Normal",
+      "DisplayText": "borrowing or accessing loans",
+      "NumericValue": 3,
+      "StringValue": "borrowing_or_accessing_loans",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-baa0bafc",
+      "CodeType": "Normal",
+      "DisplayText": "should pursue studies",
+      "NumericValue": 4,
+      "StringValue": "should_pursue_studies",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-305ea016",
+      "CodeType": "Normal",
+      "DisplayText": "should work hard",
+      "NumericValue": 5,
+      "StringValue": "should_work_hard",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-a48dfd43",
+      "CodeType": "Normal",
+      "DisplayText": "business training",
+      "NumericValue": 6,
+      "StringValue": "business_training",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-fb124ca0",
+      "CodeType": "Normal",
+      "DisplayText": "other theme",
+      "NumericValue": 7,
+      "StringValue": "other_theme",
+      "VisibleInCoda": true
+    },
     {
       "CodeID": "code-NA-f93d3eb7",
       "CodeType": "Control",

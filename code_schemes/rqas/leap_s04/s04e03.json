@@ -3,7 +3,70 @@
   "Name": "LEAP S04E03",
   "Version": "0.0.0.1",
   "Codes": [
-
+    {
+      "CodeID": "code-fada1c41",
+      "CodeType": "Normal",
+      "DisplayText": "awareness on education",
+      "NumericValue": 1,
+      "StringValue": "awareness_on_education",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-78416a0e",
+      "CodeType": "Normal",
+      "DisplayText": "refrain from or oppose negative cultures",
+      "NumericValue": 2,
+      "StringValue": "refrain_from_or_oppose_negative_cultures",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-75f25916",
+      "CodeType": "Normal",
+      "DisplayText": "support with domestic chores",
+      "NumericValue": 3,
+      "StringValue": "support_with_domestic_chores",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-ead12560",
+      "CodeType": "Normal",
+      "DisplayText": "advising or guiding them",
+      "NumericValue": 5,
+      "StringValue": "advising_or_guiding_them",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-71ee3045",
+      "CodeType": "Normal",
+      "DisplayText": "by encouraging them",
+      "NumericValue": 6,
+      "StringValue": "by_encouraging_them",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-3e87eb75",
+      "CodeType": "Normal",
+      "DisplayText": "avoid early marriage",
+      "NumericValue": 7,
+      "StringValue": "avoid_early_marriage",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-51d70b2e",
+      "CodeType": "Normal",
+      "DisplayText": "sending women to school",
+      "NumericValue": 8,
+      "StringValue": "sending_women_to_school",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-2e869bd9",
+      "CodeType": "Normal",
+      "DisplayText": "other theme",
+      "NumericValue": 9,
+      "StringValue": "other_theme",
+      "VisibleInCoda": true
+    },
     {
       "CodeID": "code-NA-f93d3eb7",
       "CodeType": "Control",
