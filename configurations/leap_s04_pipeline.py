@@ -63,7 +63,8 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     engagement_db_dataset="kakuma_gender",
                     code_scheme_configurations=[
                         CodeSchemeConfiguration(code_scheme=load_code_scheme("demographics/gender"),
-                                                auto_coder=swahili.DemographicCleaner.clean_gender)
+                                                auto_coder=swahili.DemographicCleaner.clean_gender,
+                                                coda_code_schemes_count=3)
                     ],
                     ws_code_match_value="kakuma gender"
                 ),
@@ -72,7 +73,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     engagement_db_dataset="kakuma_preffered_language",
                     code_scheme_configurations=[
                         CodeSchemeConfiguration(code_scheme=load_code_scheme("demographics/preffered_language"),
-                                                auto_coder=None),
+                                                auto_coder=None, coda_code_schemes_count=3),
                     ],
                     ws_code_match_value="kakuma preffered language"
                 ),
@@ -81,7 +82,8 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     engagement_db_dataset="kakuma_age",
                     code_scheme_configurations=[
                         CodeSchemeConfiguration(code_scheme=load_code_scheme("demographics/age"),
-                                                auto_coder=lambda x:str(swahili.DemographicCleaner.clean_age_within_range(x))),
+                                                auto_coder=lambda x:str(swahili.DemographicCleaner.clean_age_within_range(x)),
+                                                coda_code_schemes_count=3),
                     ],
                     ws_code_match_value="kakuma age"
                 ),
@@ -90,7 +92,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     engagement_db_dataset="kakuma_disabled",
                     code_scheme_configurations=[
                         CodeSchemeConfiguration(code_scheme=load_code_scheme("demographics/disabled"),
-                                                auto_coder=None)
+                                                auto_coder=None, coda_code_schemes_count=3)
                     ],
                     ws_code_match_value="kakuma disabled"
                 ),
