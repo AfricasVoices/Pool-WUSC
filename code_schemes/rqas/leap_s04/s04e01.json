@@ -3,7 +3,62 @@
   "Name": "LEAP S04E01",
   "Version": "0.0.0.1",
   "Codes": [
-
+    {
+      "CodeID": "code-f07ba753",
+      "CodeType": "Normal",
+      "DisplayText": "lack of capital and school fees",
+      "NumericValue": 1,
+      "StringValue": "lack_of_capital_and_school_fees",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-73dbe2c7",
+      "CodeType": "Normal",
+      "DisplayText": "poverty",
+      "NumericValue": 2,
+      "StringValue": "poverty",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-401f88d8",
+      "CodeType": "Normal",
+      "DisplayText": "early pregnancy or marriage",
+      "NumericValue": 3,
+      "StringValue": "early_pregnancy_or_marriage",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-52a26aa2",
+      "CodeType": "Normal",
+      "DisplayText": "negative cultural beliefs",
+      "NumericValue": 4,
+      "StringValue": "negative_cultural_beliefs",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-66ed1a89",
+      "CodeType": "Normal",
+      "DisplayText": "illiteracy or ignorance",
+      "NumericValue": 5,
+      "StringValue": "illiteracy_or_ignorance",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-199ba634",
+      "CodeType": "Normal",
+      "DisplayText": "lack of support",
+      "NumericValue": 6,
+      "StringValue": "lack_of_support",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-a84eaf06",
+      "CodeType": "Normal",
+      "DisplayText": "other theme",
+      "NumericValue": 7,
+      "StringValue": "other_theme",
+      "VisibleInCoda": true
+    },
     {
       "CodeID": "code-NA-f93d3eb7",
       "CodeType": "Control",

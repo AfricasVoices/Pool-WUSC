@@ -3,7 +3,70 @@
   "Name": "LEAP S04E02",
   "Version": "0.0.0.1",
   "Codes": [
-
+    {
+      "CodeID": "code-e44cd068",
+      "CodeType": "Normal",
+      "DisplayText": "hard working and resolute",
+      "NumericValue": 1,
+      "StringValue": "hard_working_and_resolute",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-7cb786a9",
+      "CodeType": "Normal",
+      "DisplayText": "open or start businesses",
+      "NumericValue": 2,
+      "StringValue": "open_or_start_businesses",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-ef4b2e56",
+      "CodeType": "Normal",
+      "DisplayText": "develop_self_confidence",
+      "NumericValue": 3,
+      "StringValue": "develop_self_confidence",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-74306e72",
+      "CodeType": "Normal",
+      "DisplayText": "be educated or trained",
+      "NumericValue": 4,
+      "StringValue": "be_educated_or_trained",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-cf9d97f4",
+      "CodeType": "Normal",
+      "DisplayText": "give them advice or encouragement",
+      "NumericValue": 5,
+      "StringValue": "give_them_advice_or_encouragement",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-020e7d40",
+      "CodeType": "Normal",
+      "DisplayText": "avoiding early marriage",
+      "NumericValue": 6,
+      "StringValue": "avoiding_early_marriage",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-f941b8ba",
+      "CodeType": "Normal",
+      "DisplayText": "setting goals",
+      "NumericValue": 7,
+      "StringValue": "setting_goals",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-a61902b2",
+      "CodeType": "Normal",
+      "DisplayText": "other theme",
+      "NumericValue": 8,
+      "StringValue": "other_theme",
+      "VisibleInCoda": true
+    },
     {
       "CodeID": "code-NA-f93d3eb7",
       "CodeType": "Control",
