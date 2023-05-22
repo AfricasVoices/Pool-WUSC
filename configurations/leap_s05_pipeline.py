@@ -20,6 +20,7 @@ def generate_rqa_coda_dataset_config(num_episodes=NUM_EPISODES):
             ws_code_match_value=f"leap s05e{episode_num}"
         )
         configurations.append(configuration)
+    return configurations
 
 def generate_rqa_analysis_dataset_config(num_episodes=NUM_EPISODES):
     configurations = []
@@ -37,6 +38,7 @@ def generate_rqa_analysis_dataset_config(num_episodes=NUM_EPISODES):
             ]
         )
         configurations.append(config)
+    return configurations
     
 
 PIPELINE_CONFIGURATION = PipelineConfiguration(
