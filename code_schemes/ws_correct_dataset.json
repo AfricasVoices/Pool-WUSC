@@ -81,6 +81,72 @@
       ]
     },
     {
+      "CodeID": "code-de578f3f",
+      "CodeType": "Normal",
+      "DisplayText": "leap s05e01",
+      "StringValue": "leap_s05e01",
+      "NumericValue": 89,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "leap s05e01"
+      ]
+    },
+    {
+      "CodeID": "code-08b9e796",
+      "CodeType": "Normal",
+      "DisplayText": "leap s05e02",
+      "StringValue": "leap_s05e02",
+      "NumericValue": 90,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "leap s05e02"
+      ]
+    },
+    {
+      "CodeID": "code-482cb947",
+      "CodeType": "Normal",
+      "DisplayText": "leap s05e03",
+      "StringValue": "leap_s05e03",
+      "NumericValue": 91,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "leap s05e03"
+      ]
+    },
+    {
+      "CodeID": "code-5c0b204d",
+      "CodeType": "Normal",
+      "DisplayText": "leap s05e04",
+      "StringValue": "leap_s05e04",
+      "NumericValue": 92,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "leap s05e04"
+      ]
+    },
+    {
+      "CodeID": "code-b466f6a8",
+      "CodeType": "Normal",
+      "DisplayText": "leap s05e05",
+      "StringValue": "leap_s05e05",
+      "NumericValue": 93,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "leap s05e05"
+      ]
+    },
+    {
+      "CodeID": "code-79d9fd10",
+      "CodeType": "Normal",
+      "DisplayText": "leap s05e06",
+      "StringValue": "leap_s05e06",
+      "NumericValue": 94,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "leap s05e06"
+      ]
+    },
+    {
       "CodeID": "code-4f16eb81",
       "CodeType": "Normal",
       "DisplayText": "leap s04e01",
