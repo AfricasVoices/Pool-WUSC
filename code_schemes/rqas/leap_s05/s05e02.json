@@ -12,14 +12,6 @@
       "VisibleInCoda": true
     },
     {
-      "CodeID": "code-a61902b2",
-      "CodeType": "Normal",
-      "DisplayText": "other theme",
-      "NumericValue": 8,
-      "StringValue": "other_theme",
-      "VisibleInCoda": true
-    },
-    {
       "CodeID": "code-NA-f93d3eb7",
       "CodeType": "Control",
       "ControlCode": "NA",
