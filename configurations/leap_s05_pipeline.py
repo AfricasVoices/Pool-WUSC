@@ -89,15 +89,6 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     ws_code_match_value="kakuma gender"
                 ),
                 CodaDatasetConfiguration(
-                    coda_dataset_id="WUSC-KEEP-II_kakuma_preffered_language",
-                    engagement_db_dataset="kakuma_preffered_language",
-                    code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("demographics/preffered_language"),
-                                                auto_coder=None, coda_code_schemes_count=3),
-                    ],
-                    ws_code_match_value="kakuma preffered language"
-                ),
-                CodaDatasetConfiguration(
                     coda_dataset_id="WUSC-KEEP-II_kakuma_age",
                     engagement_db_dataset="kakuma_age",
                     code_scheme_configurations=[
@@ -108,15 +99,6 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     ws_code_match_value="kakuma age"
                 ),
                 CodaDatasetConfiguration(
-                    coda_dataset_id="WUSC-KEEP-II_kakuma_disabled",
-                    engagement_db_dataset="kakuma_disabled",
-                    code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("demographics/disabled"),
-                                                auto_coder=None, coda_code_schemes_count=3)
-                    ],
-                    ws_code_match_value="kakuma disabled"
-                ),
-                CodaDatasetConfiguration(
                     coda_dataset_id="WUSC-KEEP-II_kakuma_location",
                     engagement_db_dataset="kakuma_location",
                     code_scheme_configurations=[
@@ -124,6 +106,24 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                                                 auto_coder=None),
                     ],
                     ws_code_match_value="kakuma location"
+                ),
+                CodaDatasetConfiguration(
+                    coda_dataset_id="WUSC-KEEP-II_kakuma_preffered_language",
+                    engagement_db_dataset="kakuma_preffered_language",
+                    code_scheme_configurations=[
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("demographics/preffered_language"),
+                                                auto_coder=None, coda_code_schemes_count=3),
+                    ],
+                    ws_code_match_value="kakuma preffered language"
+                ),
+                CodaDatasetConfiguration(
+                    coda_dataset_id="WUSC-KEEP-II_kakuma_disabled",
+                    engagement_db_dataset="kakuma_disabled",
+                    code_scheme_configurations=[
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("demographics/disabled"),
+                                                auto_coder=None, coda_code_schemes_count=3)
+                    ],
+                    ws_code_match_value="kakuma disabled"
                 ),
             ],
             ws_correct_dataset_code_scheme=load_code_scheme("ws_correct_dataset"),
@@ -171,6 +171,28 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                 ]
             ),
             AnalysisDatasetConfiguration(
+                engagement_db_datasets=["kakuma_nationality"],
+                dataset_type=DatasetTypes.DEMOGRAPHIC,
+                raw_dataset="nationality_raw",
+                coding_configs=[
+                    CodingConfiguration(
+                        code_scheme=load_code_scheme("demographics/nationality"),
+                        analysis_dataset="nationality"
+                    ),
+                ]
+            ),
+            AnalysisDatasetConfiguration(
+                engagement_db_datasets=["kakuma_disabled"],
+                dataset_type=DatasetTypes.DEMOGRAPHIC,
+                raw_dataset="disabled_raw",
+                coding_configs=[
+                    CodingConfiguration(
+                        code_scheme=load_code_scheme("demographics/disabled"),
+                        analysis_dataset="disabled"
+                    ),
+                ]
+            ),
+            AnalysisDatasetConfiguration(
                 engagement_db_datasets=["kakuma_age"],
                 dataset_type=DatasetTypes.DEMOGRAPHIC,
                 raw_dataset="age_raw",
@@ -194,28 +216,6 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                         )
                     ),
                 ],
-            ),
-            AnalysisDatasetConfiguration(
-                engagement_db_datasets=["kakuma_nationality"],
-                dataset_type=DatasetTypes.DEMOGRAPHIC,
-                raw_dataset="nationality_raw",
-                coding_configs=[
-                    CodingConfiguration(
-                        code_scheme=load_code_scheme("demographics/nationality"),
-                        analysis_dataset="nationality"
-                    ),
-                ]
-            ),
-            AnalysisDatasetConfiguration(
-                engagement_db_datasets=["kakuma_disabled"],
-                dataset_type=DatasetTypes.DEMOGRAPHIC,
-                raw_dataset="disabled_raw",
-                coding_configs=[
-                    CodingConfiguration(
-                        code_scheme=load_code_scheme("demographics/disabled"),
-                        analysis_dataset="disabled"
-                    ),
-                ]
             ),
         ],
         ws_correct_dataset_code_scheme=load_code_scheme("ws_correct_dataset"),
