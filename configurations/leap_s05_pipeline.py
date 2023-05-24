@@ -3,7 +3,7 @@ from src.pipeline_configuration_spec import *
 
 NUM_EPISODES = 2
 
-def generate_rqa_coda_dataset_config(num_episodes=NUM_EPISODES):
+def generate_rqa_coda_dataset_configs(num_episodes=NUM_EPISODES):
     configurations = []
     for i in range(1, num_episodes + 1):
         episode_num = str(i).zfill(2)
