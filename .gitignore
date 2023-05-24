@@ -113,5 +113,3 @@ venv.bak/
 *.session
 
 .DS_Store
-
-wusc_output
