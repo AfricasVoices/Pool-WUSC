@@ -3,9 +3,9 @@ from src.pipeline_configuration_spec import *
 
 NUM_EPISODES = 2
 
-def generate_rqa_coda_dataset_configs(num_episodes=NUM_EPISODES):
+def generate_rqa_coda_dataset_configs():
     configurations = []
-    for i in range(1, num_episodes + 1):
+    for i in range(1, NUM_EPISODES + 1):
         episode_num = str(i).zfill(2)
         configuration = CodaDatasetConfiguration(
             coda_dataset_id=f"LEAP_s05e{episode_num}",
@@ -22,9 +22,9 @@ def generate_rqa_coda_dataset_configs(num_episodes=NUM_EPISODES):
         configurations.append(configuration)
     return configurations
 
-def generate_rqa_analysis_dataset_configs(num_episodes=NUM_EPISODES):
+def generate_rqa_analysis_dataset_configs():
     configurations = []
-    for i in range(1, num_episodes + 1):
+    for i in range(1, NUM_EPISODES + 1):
         episode_num = str(i).zfill(2)
         config = AnalysisDatasetConfiguration(
             engagement_db_datasets=[f"leap_s05e{episode_num}"],
