@@ -79,7 +79,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
     coda_sync=CodaConfiguration(
         coda=CodaClientConfiguration(credentials_file_url="gs://avf-credentials/coda-production.json"),
         sync_config=CodaSyncConfiguration(
-            dataset_configurations= generate_rqa_coda_dataset_config() + [
+            dataset_configurations= generate_rqa_coda_dataset_configs() + [
                 CodaDatasetConfiguration(
                     coda_dataset_id="WUSC-KEEP-II_kakuma_gender",
                     engagement_db_dataset="kakuma_gender",
@@ -137,7 +137,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
             credentials_file_url="gs://avf-credentials/pipeline-runner-service-acct-avf-data-core-64cc71459fe7.json",
             drive_dir="leap_s05_analysis_output"
         ),
-        dataset_configurations=generate_rqa_analysis_dataset_config() + [
+        dataset_configurations=generate_rqa_analysis_dataset_configs() + [
             AnalysisDatasetConfiguration(
                 engagement_db_datasets=["kakuma_gender"],
                 dataset_type=DatasetTypes.DEMOGRAPHIC,
