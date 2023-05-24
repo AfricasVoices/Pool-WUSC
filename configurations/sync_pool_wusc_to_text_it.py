@@ -56,7 +56,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                                                      label="pool wusc consent withdrawn")
             ),
             write_mode=WriteModes.CONCATENATE_TEXTS,
-            allow_clearing_fields=False,
+            allow_clearing_fields=True,
             sync_advert_contacts=True,
         )
     ),
