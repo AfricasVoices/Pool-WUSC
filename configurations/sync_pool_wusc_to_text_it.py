@@ -2,7 +2,7 @@ from core_data_modules.cleaners import swahili
 from src.pipeline_configuration_spec import *
 
 PIPELINE_CONFIGURATION = PipelineConfiguration(
-    pipeline_name="sync pool wusc to textit",
+    pipeline_name="Pool-WUSC-To-TextIt",
     engagement_database=EngagementDatabaseClientConfiguration(
         credentials_file_url="gs://avf-credentials/avf-engagement-databases-firebase-credentials-file.json",
         database_path="engagement_databases/POOL-WUSC"
