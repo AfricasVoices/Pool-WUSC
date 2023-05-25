@@ -119,6 +119,15 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     ws_code_match_value="kakuma preffered language"
                 ),
                 CodaDatasetConfiguration(
+                    coda_dataset_id="WUSC-KEEP-II_kakuma_household_language",
+                    engagement_db_dataset="kakuma_household_language",
+                    code_scheme_configurations=[
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("demographics/household_language"),
+                                                auto_coder=None, coda_code_schemes_count=3),
+                    ],
+                    ws_code_match_value="kakuma household language"
+                ),
+                CodaDatasetConfiguration(
                     coda_dataset_id="WUSC-KEEP-II_kakuma_disabled",
                     engagement_db_dataset="kakuma_disabled",
                     code_scheme_configurations=[
