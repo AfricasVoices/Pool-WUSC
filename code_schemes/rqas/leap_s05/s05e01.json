@@ -4,6 +4,46 @@
   "Version": "0.0.0.1",
   "Codes": [
     {
+      "CodeID": "code-e793c110",
+      "DisplayText": "laziness",
+      "CodeType": "Normal",
+      "NumericValue": 1,
+      "StringValue": "laziness",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-9899c4ab",
+      "DisplayText": "poverty",
+      "CodeType": "Normal",
+      "NumericValue": 2,
+      "StringValue": "poverty",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-7976c12e",
+      "DisplayText": "indignity",
+      "CodeType": "Normal",
+      "NumericValue": 3,
+      "StringValue": "indignity",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-cc24243b",
+      "DisplayText": "low interest in education",
+      "CodeType": "Normal",
+      "NumericValue": 4,
+      "StringValue": "low_interest_in_education",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-26caf422",
+      "DisplayText": "aid delay",
+      "CodeType": "Normal",
+      "NumericValue": 5,
+      "StringValue": "aid_delay",
+      "VisibleInCoda": true
+    },
+    {
       "CodeID": "code-1a491a14",
       "CodeType": "Normal",
       "DisplayText": "other theme",
