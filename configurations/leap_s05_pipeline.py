@@ -44,12 +44,12 @@ def generate_rqa_analysis_dataset_configs():
 PIPELINE_CONFIGURATION = PipelineConfiguration(
     pipeline_name="leap_s05",
     engagement_database=EngagementDatabaseClientConfiguration(
-        credentials_file_url="gs://avf-credentials/avf-engagement-databases-firebase-credentials-file.json",
-        database_path="engagement_databases/POOL-WUSC"
+        credentials_file_url="gs://avf-credentials/firebase-test.json",
+        database_path="engagement_databases/kobotoolbox_test"
     ),
     uuid_table=UUIDTableClientConfiguration(
-        credentials_file_url="gs://avf-credentials/avf-id-infrastructure-firebase-adminsdk-6xps8-b9173f2bfd.json",
-        table_name="avf-global-urn-to-participant-uuid",
+        credentials_file_url="gs://avf-credentials/firebase-test.json",
+        table_name="_engagement_db_test",
         uuid_prefix="avf-participant-uuid-"
     ),
     operations_dashboard=OperationsDashboardConfiguration(
