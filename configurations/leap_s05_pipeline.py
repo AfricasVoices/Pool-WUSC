@@ -88,7 +88,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                 ignore_invalid_mobile_numbers=True,
                 question_configurations=[
                     #RQA
-                    KoboToolBoxQuestionConfiguration(data_column_name="leap_s05e01?", engagement_db_dataset="leap_s05e01"),
+                    KoboToolBoxQuestionConfiguration(data_column_name="leap_s05e01", engagement_db_dataset="leap_s05e01"),
 
                     #Demogs
                     KoboToolBoxQuestionConfiguration(data_column_name="Gender", engagement_db_dataset="kakuma_gender"),
