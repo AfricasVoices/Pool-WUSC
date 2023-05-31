@@ -4,6 +4,38 @@
   "Version": "0.0.0.1",
   "Codes": [
     {
+      "CodeID": "code-3d23bc3b",
+      "DisplayText": "start small businesses",
+      "CodeType": "Normal",
+      "NumericValue": 1,
+      "StringValue": "start_small_businesses",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-d1cfb7b1",
+      "DisplayText": "agriculture",
+      "CodeType": "Normal",
+      "NumericValue": 2,
+      "StringValue": "agriculture",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-9c354a41",
+      "DisplayText": "look for employment",
+      "CodeType": "Normal",
+      "NumericValue": 3,
+      "StringValue": "look_for_employment",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-c4e94dc3",
+      "DisplayText": "barely survive",
+      "CodeType": "Normal",
+      "NumericValue": 4,
+      "StringValue": "barely_survive",
+      "VisibleInCoda": true
+    },
+    {
       "CodeID": "code-836abcb4",
       "CodeType": "Normal",
       "DisplayText": "other theme",
