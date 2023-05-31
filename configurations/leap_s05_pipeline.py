@@ -147,7 +147,8 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                 ),
             ],
             ws_correct_dataset_code_scheme=load_code_scheme("ws_correct_dataset"),
-            project_users_file_url="gs://avf-project-datasets/2021/WUSC-LEAP/coda_users.json"
+            project_users_file_url="gs://avf-project-datasets/2021/WUSC-LEAP/coda_users.json",
+            default_ws_dataset="kakuma_old_rqa_datasets"
         )
     ),
     analysis=AnalysisConfiguration(
