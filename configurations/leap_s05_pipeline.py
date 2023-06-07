@@ -65,6 +65,8 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                 flow_result_configurations=[
                     FlowResultConfiguration("wusc_leap_s05e01_kalobeyei_activation", "rqa_s05e01", "leap_s05e01"),
                     FlowResultConfiguration("wusc_leap_s05e02_kalobeyei_activation", "rqa_s05e02", "leap_s05e02"),
+                    FlowResultConfiguration("wusc_leap_s05e03_kalobeyei_activation", "rqa_s05e03", "leap_s05e03"),
+                    FlowResultConfiguration("wusc_leap_s05e04_kalobeyei_activation", "rqa_s05e04", "leap_s05e04"),
                     
                     FlowResultConfiguration("wusc_leap_s05_kalobeyei_demogs", "age", "kakuma_age"),
                     FlowResultConfiguration("wusc_leap_s05_kalobeyei_demogs", "gender", "kakuma_gender"),
