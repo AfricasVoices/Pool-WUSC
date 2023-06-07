@@ -1,7 +1,7 @@
 from core_data_modules.cleaners import swahili
 from src.pipeline_configuration_spec import *
 
-NUM_EPISODES = 2
+NUM_EPISODES = 4
 
 def generate_rqa_coda_dataset_configs():
     configurations = []
