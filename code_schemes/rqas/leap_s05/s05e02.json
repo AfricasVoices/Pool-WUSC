@@ -36,6 +36,30 @@
       "VisibleInCoda": true
     },
     {
+      "CodeID": "code-05bab6db",
+      "DisplayText": "rely on county relief food",
+      "CodeType": "Normal",
+      "NumericValue": 5,
+      "StringValue": "rely_on_county_relief_food",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-4c134f3d",
+      "DisplayText": "enroll in technical training",
+      "CodeType": "Normal",
+      "NumericValue": 6,
+      "StringValue": "enroll_in_technical_training",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-69721cfa",
+      "DisplayText": "continue existing businesses",
+      "CodeType": "Normal",
+      "NumericValue": 7,
+      "StringValue": "continue_existing_businesses",
+      "VisibleInCoda": true
+    },
+    {
       "CodeID": "code-836abcb4",
       "CodeType": "Normal",
       "DisplayText": "other theme",
