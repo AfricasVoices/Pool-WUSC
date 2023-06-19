@@ -5,10 +5,10 @@
   "Codes": [
     {
       "CodeID": "code-e793c110",
-      "DisplayText": "laziness",
+      "DisplayText": "disempowerment",
       "CodeType": "Normal",
       "NumericValue": 1,
-      "StringValue": "laziness",
+      "StringValue": "disempowerment",
       "VisibleInCoda": true
     },
     {
@@ -41,6 +41,38 @@
       "CodeType": "Normal",
       "NumericValue": 5,
       "StringValue": "aid_delay",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-0eeff9ce",
+      "DisplayText": "poor economic development",
+      "CodeType": "Normal",
+      "NumericValue": 6,
+      "StringValue": "poor_economic_development",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-6f093b5c",
+      "DisplayText": "mental health issues",
+      "CodeType": "Normal",
+      "NumericValue": 7,
+      "StringValue": "mental_health_issues",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-1a67c89b",
+      "DisplayText": "malnutrition",
+      "CodeType": "Normal",
+      "NumericValue": 8,
+      "StringValue": "malnutrition",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-c1ebba73",
+      "DisplayText": "helps us survive",
+      "CodeType": "Normal",
+      "NumericValue": 9,
+      "StringValue": "helps_us_survive",
       "VisibleInCoda": true
     },
     {
