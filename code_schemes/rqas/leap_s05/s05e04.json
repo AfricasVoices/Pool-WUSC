@@ -4,6 +4,70 @@
   "Version": "0.0.0.1",
   "Codes": [
     {
+      "CodeID": "code-8122dce6",
+      "DisplayText": "start small businesses",
+      "CodeType": "Normal",
+      "NumericValue": 1,
+      "StringValue": "start_small_businesses",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-8e3ba3dd",
+      "DisplayText": "support is too little",
+      "CodeType": "Normal",
+      "NumericValue": 2,
+      "StringValue": "support_is_too_little",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-0d56cb5e",
+      "DisplayText": "acquire vocational skills",
+      "CodeType": "Normal",
+      "NumericValue": 3,
+      "StringValue": "acquire_vocational_skills",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-0f913c5b",
+      "DisplayText": "do farmimg",
+      "CodeType": "Normal",
+      "NumericValue": 4,
+      "StringValue": "do_farmimg",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-63dc3188",
+      "DisplayText": "build creative talents",
+      "CodeType": "Normal",
+      "NumericValue": 5,
+      "StringValue": "build_creative_talents",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-31822cff",
+      "DisplayText": "expand businesses",
+      "CodeType": "Normal",
+      "NumericValue": 6,
+      "StringValue": "expand_businesses",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-4c100dab",
+      "DisplayText": "find employment",
+      "CodeType": "Normal",
+      "NumericValue": 7,
+      "StringValue": "find_employment",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-e4d2f137",
+      "DisplayText": "business cannot be sustained",
+      "CodeType": "Normal",
+      "NumericValue": 8,
+      "StringValue": "business_cannot_be_sustained",
+      "VisibleInCoda": true
+    },
+    {
       "CodeID": "code-3a91119e",
       "CodeType": "Normal",
       "DisplayText": "other theme",
