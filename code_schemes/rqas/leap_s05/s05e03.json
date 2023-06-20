@@ -4,6 +4,62 @@
   "Version": "0.0.0.1",
   "Codes": [
     {
+      "CodeID": "code-3d23bc3b",
+      "DisplayText": "start small businesses",
+      "CodeType": "Normal",
+      "NumericValue": 1,
+      "StringValue": "start_small_businesses",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-d1cfb7b1",
+      "DisplayText": "agriculture",
+      "CodeType": "Normal",
+      "NumericValue": 2,
+      "StringValue": "agriculture",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-9c354a41",
+      "DisplayText": "look for employment",
+      "CodeType": "Normal",
+      "NumericValue": 3,
+      "StringValue": "look_for_employment",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-c4e94dc3",
+      "DisplayText": "barely survive",
+      "CodeType": "Normal",
+      "NumericValue": 4,
+      "StringValue": "barely_survive",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-05bab6db",
+      "DisplayText": "rely on county relief food",
+      "CodeType": "Normal",
+      "NumericValue": 5,
+      "StringValue": "rely_on_county_relief_food",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-4c134f3d",
+      "DisplayText": "enroll in technical training",
+      "CodeType": "Normal",
+      "NumericValue": 6,
+      "StringValue": "enroll_in_technical_training",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-69721cfa",
+      "DisplayText": "continue existing businesses",
+      "CodeType": "Normal",
+      "NumericValue": 7,
+      "StringValue": "continue_existing_businesses",
+      "VisibleInCoda": true
+    },
+    {
       "CodeID": "code-6431bd06",
       "CodeType": "Normal",
       "DisplayText": "other theme",
