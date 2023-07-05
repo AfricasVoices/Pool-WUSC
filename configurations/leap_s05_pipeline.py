@@ -1,7 +1,7 @@
 from core_data_modules.cleaners import swahili
 from src.pipeline_configuration_spec import *
 
-NUM_EPISODES = 5
+NUM_EPISODES = 6
 
 def generate_rqa_coda_dataset_configs():
     configurations = []
@@ -68,6 +68,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     FlowResultConfiguration("wusc_leap_s05e03_kalobeyei_activation", "rqa_s05e03", "leap_s05e03"),
                     FlowResultConfiguration("wusc_leap_s05e04_kalobeyei_activation", "rqa_s05e04", "leap_s05e04"),
                     FlowResultConfiguration("wusc_leap_s05e05_kalobeyei_activation", "rqa_s05e05", "leap_s05e05"),
+                    FlowResultConfiguration("wusc_leap_s05e06_kalobeyei_activation", "rqa_s05e06", "leap_s05e06"),
                     
                     FlowResultConfiguration("wusc_leap_s05_kalobeyei_demogs", "age", "kakuma_age"),
                     FlowResultConfiguration("wusc_leap_s05_kalobeyei_demogs", "gender", "kakuma_gender"),
