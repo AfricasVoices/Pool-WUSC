@@ -4,6 +4,54 @@
   "Version": "0.0.0.1",
   "Codes": [
     {
+      "CodeID": "code-47e45627",
+      "DisplayText": "apply for and attend trainings",
+      "CodeType": "Normal",
+      "NumericValue": 1,
+      "StringValue": "apply_for_and_attend_trainings",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-ab5f95b4",
+      "DisplayText": "working hard",
+      "CodeType": "Normal",
+      "NumericValue": 2,
+      "StringValue": "working_hard",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-1f1d9d0c",
+      "DisplayText": "applying for scholarship",
+      "CodeType": "Normal",
+      "NumericValue": 3,
+      "StringValue": "applying_for_scholarship",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-1efc1361",
+      "DisplayText": "identifying opportunities",
+      "CodeType": "Normal",
+      "NumericValue": 4,
+      "StringValue": "identifying_opportunities",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-18689474",
+      "DisplayText": "seeking support from NGOs or institutions",
+      "CodeType": "Normal",
+      "NumericValue": 5,
+      "StringValue": "seeking_support_from_NGOs_or_institutions",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-90cb208a",
+      "DisplayText": "self funding education",
+      "CodeType": "Normal",
+      "NumericValue": 6,
+      "StringValue": "self_funding_education",
+      "VisibleInCoda": true
+    },
+    {
       "CodeID": "code-7c4b17ee",
       "CodeType": "Normal",
       "DisplayText": "other theme",

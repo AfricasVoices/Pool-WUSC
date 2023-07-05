@@ -51,7 +51,8 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                 engagement_db_datasets=["kakuma_age", "kakuma_gender", "kakuma_location", "kakuma_disabled",
                                         "kakuma_preffered_age", "kakuma_nationality", "kakuma_old_rqa_datasets",
                                         "leap_s04e01","leap_s04e02","leap_s04e03", "leap_s04e04",
-                                        "leap_s04e05", "leap_s04e06"],
+                                        "leap_s04e05", "leap_s04e06", "leap_s05e01","leap_s05e02","leap_s05e03", 
+                                        "leap_s05e04", "leap_s05e05", "leap_s05e06"],
                 rapid_pro_contact_field=ContactField(key="pool_wusc_consent_withdrawn",
                                                      label="pool wusc consent withdrawn")
             ),
