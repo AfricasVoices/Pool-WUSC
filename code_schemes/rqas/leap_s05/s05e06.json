@@ -100,6 +100,14 @@
       "VisibleInCoda": true
     },
     {
+      "CodeID": "code-a246e9e3",
+      "DisplayText": "provide licenses",
+      "CodeType": "Normal",
+      "NumericValue": 13,
+      "StringValue": "provide_licenses",
+      "VisibleInCoda": true
+    },
+    {
       "CodeID": "code-43b37d42",
       "CodeType": "Normal",
       "DisplayText": "other theme",
