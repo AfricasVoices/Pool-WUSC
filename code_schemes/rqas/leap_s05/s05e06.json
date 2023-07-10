@@ -29,10 +29,10 @@
     },
     {
       "CodeID": "code-59a9cb4e",
-      "DisplayText": "employment outside camp",
+      "DisplayText": "provide employment",
       "CodeType": "Normal",
       "NumericValue": 4,
-      "StringValue": "employment_outside_camp",
+      "StringValue": "provide_employment",
       "VisibleInCoda": true
     },
     {
