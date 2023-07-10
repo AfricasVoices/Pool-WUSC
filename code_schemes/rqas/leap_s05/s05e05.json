@@ -52,6 +52,22 @@
       "VisibleInCoda": true
     },
     {
+      "CodeID": "code-0282500c",
+      "DisplayText": "lack of initiative",
+      "CodeType": "Normal",
+      "NumericValue": 7,
+      "StringValue": "lack_of_initiative",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-36206344",
+      "DisplayText": "creating awareness",
+      "CodeType": "Normal",
+      "NumericValue": 8,
+      "StringValue": "creating_awareness",
+      "VisibleInCoda": true
+    },
+    {
       "CodeID": "code-7c4b17ee",
       "CodeType": "Normal",
       "DisplayText": "other theme",
