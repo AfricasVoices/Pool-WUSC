@@ -4,6 +4,110 @@
   "Version": "0.0.0.1",
   "Codes": [
     {
+      "CodeID": "code-5a79274a",
+      "DisplayText": "access loans",
+      "CodeType": "Normal",
+      "NumericValue": 1,
+      "StringValue": "access_loans",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-f06ad4c1",
+      "DisplayText": "allow free movements",
+      "CodeType": "Normal",
+      "NumericValue": 2,
+      "StringValue": "allow_free_movements",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-04a56b2b",
+      "DisplayText": "provide training and mentorship",
+      "CodeType": "Normal",
+      "NumericValue": 3,
+      "StringValue": "provide_training_and_mentorship",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-59a9cb4e",
+      "DisplayText": "provide employment",
+      "CodeType": "Normal",
+      "NumericValue": 4,
+      "StringValue": "provide_employment",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-0400bff6",
+      "DisplayText": "provide work permit",
+      "CodeType": "Normal",
+      "NumericValue": 5,
+      "StringValue": "provide_work_permit",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-95ff5d28",
+      "DisplayText": "provide land for agriculture",
+      "CodeType": "Normal",
+      "NumericValue": 6,
+      "StringValue": "provide_land_for_agriculture",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-9f407bb1",
+      "DisplayText": "provide more security",
+      "CodeType": "Normal",
+      "NumericValue": 7,
+      "StringValue": "provide_more_security",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-6c56efe2",
+      "DisplayText": "support talents",
+      "CodeType": "Normal",
+      "NumericValue": 8,
+      "StringValue": "support_talents",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-313d4790",
+      "DisplayText": "improve heathcare services",
+      "CodeType": "Normal",
+      "NumericValue": 9,
+      "StringValue": "improve_heathcare_services",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-cec2495f",
+      "DisplayText": "provide  quality education",
+      "CodeType": "Normal",
+      "NumericValue": 10,
+      "StringValue": "provide_quality_education",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-9e38443f",
+      "DisplayText": "resettlement",
+      "CodeType": "Normal",
+      "NumericValue": 11,
+      "StringValue": "resettlement",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-75659052",
+      "DisplayText": "equal treatment",
+      "CodeType": "Normal",
+      "NumericValue": 12,
+      "StringValue": "equal_treatment",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-a246e9e3",
+      "DisplayText": "provide licenses",
+      "CodeType": "Normal",
+      "NumericValue": 13,
+      "StringValue": "provide_licenses",
+      "VisibleInCoda": true
+    },
+    {
       "CodeID": "code-43b37d42",
       "CodeType": "Normal",
       "DisplayText": "other theme",
