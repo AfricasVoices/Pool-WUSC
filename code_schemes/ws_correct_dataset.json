@@ -81,6 +81,72 @@
       ]
     },
     {
+      "CodeID": "code-82096d36",
+      "CodeType": "Normal",
+      "DisplayText": "leap s06e01",
+      "StringValue": "leap_s06e01",
+      "NumericValue": 95,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "leap s06e01"
+      ]
+    },
+    {
+      "CodeID": "code-23d89179",
+      "CodeType": "Normal",
+      "DisplayText": "leap s06e02",
+      "StringValue": "leap_s06e02",
+      "NumericValue": 96,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "leap s06e02"
+      ]
+    },
+    {
+      "CodeID": "code-58fafed4",
+      "CodeType": "Normal",
+      "DisplayText": "leap s06e03",
+      "StringValue": "leap_s06e03",
+      "NumericValue": 97,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "leap s06e03"
+      ]
+    },
+    {
+      "CodeID": "code-7ab50b5a",
+      "CodeType": "Normal",
+      "DisplayText": "leap s06e04",
+      "StringValue": "leap_s06e04",
+      "NumericValue": 98,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "leap s06e04"
+      ]
+    },
+    {
+      "CodeID": "code-05ce5304",
+      "CodeType": "Normal",
+      "DisplayText": "leap s06e05",
+      "StringValue": "leap_s06e05",
+      "NumericValue": 99,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "leap s06e05"
+      ]
+    },
+    {
+      "CodeID": "code-122c6964",
+      "CodeType": "Normal",
+      "DisplayText": "leap s06e06",
+      "StringValue": "leap_s06e06",
+      "NumericValue": 100,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "leap s06e06"
+      ]
+    },
+    {
       "CodeID": "code-de578f3f",
       "CodeType": "Normal",
       "DisplayText": "leap s05e01",
