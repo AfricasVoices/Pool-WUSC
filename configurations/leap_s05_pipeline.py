@@ -116,6 +116,15 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
         sync_config=CodaSyncConfiguration(
             dataset_configurations= generate_rqa_coda_dataset_configs() + [
                 CodaDatasetConfiguration(
+                    coda_dataset_id="LEAP_s05_closeout",
+                    engagement_db_dataset="leap_s05_closeout",
+                    code_scheme_configurations=[
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqas/leap_s05/s05_closeout"),
+                                                auto_coder=None, coda_code_schemes_count=3)
+                    ],
+                    ws_code_match_value="leap s05 closeout"
+                ),
+                CodaDatasetConfiguration(
                     coda_dataset_id="WUSC-KEEP-II_kakuma_gender",
                     engagement_db_dataset="kakuma_gender",
                     code_scheme_configurations=[
