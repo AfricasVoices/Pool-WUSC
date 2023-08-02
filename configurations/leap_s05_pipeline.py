@@ -69,6 +69,8 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     FlowResultConfiguration("wusc_leap_s05e04_kalobeyei_activation", "rqa_s05e04", "leap_s05e04"),
                     FlowResultConfiguration("wusc_leap_s05e05_kalobeyei_activation", "rqa_s05e05", "leap_s05e05"),
                     FlowResultConfiguration("wusc_leap_s05e06_kalobeyei_activation", "rqa_s05e06", "leap_s05e06"),
+                    FlowResultConfiguration("wusc_leap_s05_kalobeyei_closeout_ad", 
+                                            "wusc_leap_s05_kalobeyei_close_out", "leap_s05_closeout"),
                     
                     FlowResultConfiguration("wusc_leap_s05_kalobeyei_demogs", "age", "kakuma_age"),
                     FlowResultConfiguration("wusc_leap_s05_kalobeyei_demogs", "gender", "kakuma_gender"),
@@ -113,6 +115,15 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
         coda=CodaClientConfiguration(credentials_file_url="gs://avf-credentials/coda-production.json"),
         sync_config=CodaSyncConfiguration(
             dataset_configurations= generate_rqa_coda_dataset_configs() + [
+                CodaDatasetConfiguration(
+                    coda_dataset_id="LEAP_s05_closeout",
+                    engagement_db_dataset="leap_s05_closeout",
+                    code_scheme_configurations=[
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqas/leap_s05/s05_closeout"),
+                                                auto_coder=None, coda_code_schemes_count=3)
+                    ],
+                    ws_code_match_value="leap s05 closeout"
+                ),
                 CodaDatasetConfiguration(
                     coda_dataset_id="WUSC-KEEP-II_kakuma_gender",
                     engagement_db_dataset="kakuma_gender",
