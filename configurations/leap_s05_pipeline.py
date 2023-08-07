@@ -39,7 +39,14 @@ def generate_rqa_analysis_dataset_configs():
         )
         configurations.append(config)
     return configurations
-    
+
+demogs_question_configurations = [
+    KoboToolBoxQuestionConfiguration(data_column_name="Gender", engagement_db_dataset="kakuma_gender"),
+    KoboToolBoxQuestionConfiguration(data_column_name="Age", engagement_db_dataset="kakuma_age"),
+    KoboToolBoxQuestionConfiguration(data_column_name="Location", engagement_db_dataset="kakuma_location"),
+    KoboToolBoxQuestionConfiguration(data_column_name="Disability", engagement_db_dataset="kakuma_disabled"),
+    KoboToolBoxQuestionConfiguration(data_column_name="Nationality", engagement_db_dataset="kakuma_nationality"),
+]  
 
 PIPELINE_CONFIGURATION = PipelineConfiguration(
     pipeline_name="leap_s05",
@@ -69,6 +76,8 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     FlowResultConfiguration("wusc_leap_s05e04_kalobeyei_activation", "rqa_s05e04", "leap_s05e04"),
                     FlowResultConfiguration("wusc_leap_s05e05_kalobeyei_activation", "rqa_s05e05", "leap_s05e05"),
                     FlowResultConfiguration("wusc_leap_s05e06_kalobeyei_activation", "rqa_s05e06", "leap_s05e06"),
+                    FlowResultConfiguration("wusc_leap_s05_kalobeyei_closeout_ad", 
+                                            "wusc_leap_s05_kalobeyei_close_out", "leap_s05_closeout"),
                     
                     FlowResultConfiguration("wusc_leap_s05_kalobeyei_demogs", "age", "kakuma_age"),
                     FlowResultConfiguration("wusc_leap_s05_kalobeyei_demogs", "gender", "kakuma_gender"),
@@ -91,21 +100,65 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                 ),
                 ignore_invalid_mobile_numbers=True,
                 question_configurations=[
-                    #RQA
                     KoboToolBoxQuestionConfiguration(data_column_name="leap_s05e01", engagement_db_dataset="leap_s05e01"),
+                ] + demogs_question_configurations
+            )
+        ),
+        # Leap episode 2 was extended to week 3
+        KoboToolBoxSource(
+            token_file_url="gs://avf-credentials/wusc-kobotoolbox-token.json",
+            sync_config=KoboToolBoxToEngagementDBConfiguration(
+                asset_uid="a7RffUFr3navkxq6rnx4AK",
+                participant_id_configuration=KoboToolBoxParticipantIdConfiguration(
+                    data_column_name="Contacts",
+                    id_type=KoboToolBoxParticipantIdTypes.KENYA_MOBILE_NUMBER
+                ),
+                ignore_invalid_mobile_numbers=True,
+                question_configurations=[
                     KoboToolBoxQuestionConfiguration(data_column_name="leap_s05e02", engagement_db_dataset="leap_s05e02"),
-
-                    #Demogs
-                    KoboToolBoxQuestionConfiguration(data_column_name="Gender", engagement_db_dataset="kakuma_gender"),
-
-                    KoboToolBoxQuestionConfiguration(data_column_name="Age", engagement_db_dataset="kakuma_age"),
-
-                    KoboToolBoxQuestionConfiguration(data_column_name="Location", engagement_db_dataset="kakuma_location"),
-
-                    KoboToolBoxQuestionConfiguration(data_column_name="Disability", engagement_db_dataset="kakuma_disabled"),
-
-                    KoboToolBoxQuestionConfiguration(data_column_name="Nationality", engagement_db_dataset="kakuma_nationality"),
-                ]
+                ] + demogs_question_configurations
+            )
+        ),
+        KoboToolBoxSource(
+            token_file_url="gs://avf-credentials/wusc-kobotoolbox-token.json",
+            sync_config=KoboToolBoxToEngagementDBConfiguration(
+                asset_uid="a64NMsbSgZLjM43NXNoLAH",
+                participant_id_configuration=KoboToolBoxParticipantIdConfiguration(
+                    data_column_name="Contacts",
+                    id_type=KoboToolBoxParticipantIdTypes.KENYA_MOBILE_NUMBER
+                ),
+                ignore_invalid_mobile_numbers=True,
+                question_configurations=[
+                    KoboToolBoxQuestionConfiguration(data_column_name="leap_s05e03", engagement_db_dataset="leap_s05e04"),
+                ] + demogs_question_configurations
+            )
+        ),
+        KoboToolBoxSource(
+            token_file_url="gs://avf-credentials/wusc-kobotoolbox-token.json",
+            sync_config=KoboToolBoxToEngagementDBConfiguration(
+                asset_uid="a3jCvqzobafRQcixStjaVn",
+                participant_id_configuration=KoboToolBoxParticipantIdConfiguration(
+                    data_column_name="Contacts",
+                    id_type=KoboToolBoxParticipantIdTypes.KENYA_MOBILE_NUMBER
+                ),
+                ignore_invalid_mobile_numbers=True,
+                question_configurations=[
+                    KoboToolBoxQuestionConfiguration(data_column_name="leap_s05e05", engagement_db_dataset="leap_s05e05"),
+                ] + demogs_question_configurations
+            )
+        ),
+        KoboToolBoxSource(
+            token_file_url="gs://avf-credentials/wusc-kobotoolbox-token.json",
+            sync_config=KoboToolBoxToEngagementDBConfiguration(
+                asset_uid="aCvaGLZWNg3f9LGeAWNecQ",
+                participant_id_configuration=KoboToolBoxParticipantIdConfiguration(
+                    data_column_name="Contacts",
+                    id_type=KoboToolBoxParticipantIdTypes.KENYA_MOBILE_NUMBER
+                ),
+                ignore_invalid_mobile_numbers=True,
+                question_configurations=[
+                    KoboToolBoxQuestionConfiguration(data_column_name="leap_s05e06", engagement_db_dataset="leap_s05e06"),
+                ] + demogs_question_configurations
             )
         )
     ],
@@ -113,6 +166,15 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
         coda=CodaClientConfiguration(credentials_file_url="gs://avf-credentials/coda-production.json"),
         sync_config=CodaSyncConfiguration(
             dataset_configurations= generate_rqa_coda_dataset_configs() + [
+                CodaDatasetConfiguration(
+                    coda_dataset_id="LEAP_s05_closeout",
+                    engagement_db_dataset="leap_s05_closeout",
+                    code_scheme_configurations=[
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqas/leap_s05/s05_closeout"),
+                                                auto_coder=None, coda_code_schemes_count=3)
+                    ],
+                    ws_code_match_value="leap s05 closeout"
+                ),
                 CodaDatasetConfiguration(
                     coda_dataset_id="WUSC-KEEP-II_kakuma_gender",
                     engagement_db_dataset="kakuma_gender",

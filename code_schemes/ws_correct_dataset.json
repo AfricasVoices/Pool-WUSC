@@ -213,6 +213,17 @@
       ]
     },
     {
+      "CodeID": "code-eea78b3e",
+      "CodeType": "Normal",
+      "DisplayText": "leap s05 closeout",
+      "StringValue": "leap_s05_closeout",
+      "NumericValue": 101,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "leap s05 closeout"
+      ]
+    },
+    {
       "CodeID": "code-4f16eb81",
       "CodeType": "Normal",
       "DisplayText": "leap s04e01",
