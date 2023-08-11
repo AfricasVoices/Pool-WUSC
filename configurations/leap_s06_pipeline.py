@@ -39,7 +39,15 @@ def generate_rqa_analysis_dataset_configs():
         )
         configurations.append(config)
     return configurations
-    
+
+
+demogs_question_configurations = [
+    KoboToolBoxQuestionConfiguration(data_column_name="Gender", engagement_db_dataset="kakuma_gender"),
+    KoboToolBoxQuestionConfiguration(data_column_name="Age", engagement_db_dataset="kakuma_age"),
+    KoboToolBoxQuestionConfiguration(data_column_name="Location", engagement_db_dataset="kakuma_location"),
+    KoboToolBoxQuestionConfiguration(data_column_name="Disability", engagement_db_dataset="kakuma_disabled"),
+    KoboToolBoxQuestionConfiguration(data_column_name="Nationality", engagement_db_dataset="kakuma_nationality"),
+]   
 
 PIPELINE_CONFIGURATION = PipelineConfiguration(
     pipeline_name="leap_s06",
@@ -80,7 +88,36 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
             )
         ),
     ],
-    kobotoolbox_sources=[],
+    kobotoolbox_sources=[
+        KoboToolBoxSource(
+            token_file_url="gs://avf-credentials/wusc-kobotoolbox-token.json",
+            sync_config=KoboToolBoxToEngagementDBConfiguration(    
+                asset_uid="a7iCcdsCJd98ahbKvfjFEa",
+                participant_id_configuration=KoboToolBoxParticipantIdConfiguration(
+                    data_column_name="Contacts",
+                    id_type=KoboToolBoxParticipantIdTypes.KENYA_MOBILE_NUMBER
+                ),
+                ignore_invalid_mobile_numbers=True,
+                question_configurations=[
+                    KoboToolBoxQuestionConfiguration(data_column_name="leap_s06e01", engagement_db_dataset="leap_s06e01"),
+                ] + demogs_question_configurations
+            )
+        ),
+        KoboToolBoxSource(
+            token_file_url="gs://avf-credentials/wusc-kobotoolbox-token.json",
+            sync_config=KoboToolBoxToEngagementDBConfiguration(    
+                asset_uid="aNjXWyQUTohwfFZpK2zJ2D",
+                participant_id_configuration=KoboToolBoxParticipantIdConfiguration(
+                    data_column_name="Contacts",
+                    id_type=KoboToolBoxParticipantIdTypes.KENYA_MOBILE_NUMBER
+                ),
+                ignore_invalid_mobile_numbers=True,
+                question_configurations=[
+                    KoboToolBoxQuestionConfiguration(data_column_name="leap_s06e02", engagement_db_dataset="leap_s06e02"),
+                ] + demogs_question_configurations
+            )
+        ),
+    ],
     coda_sync=CodaConfiguration(
         coda=CodaClientConfiguration(credentials_file_url="gs://avf-credentials/coda-production.json"),
         sync_config=CodaSyncConfiguration(
