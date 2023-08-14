@@ -4,6 +4,54 @@
     "Version": "0.0.0.1",
     "Codes": [
       {
+        "CodeID": "code-836d82b0",
+        "DisplayText": "cbc awareness creation",
+        "CodeType": "Normal",
+        "NumericValue": 1,
+        "StringValue": "cbc_awareness_creation",
+        "VisibleInCoda": true
+      },
+      {
+        "CodeID": "code-59b52773",
+        "DisplayText": "don't know about it",
+        "CodeType": "Normal",
+        "NumericValue": 2,
+        "StringValue": "don't_know_about_it",
+        "VisibleInCoda": true
+      },
+      {
+        "CodeID": "code-c2753dfa",
+        "DisplayText": "provide encouragement",
+        "CodeType": "Normal",
+        "NumericValue": 3,
+        "StringValue": "provide_encouragement",
+        "VisibleInCoda": true
+      },
+      {
+        "CodeID": "code-40dbbe09",
+        "DisplayText": "provide learning materials",
+        "CodeType": "Normal",
+        "NumericValue": 4,
+        "StringValue": "provide_learning_materials",
+        "VisibleInCoda": true
+      },
+      {
+        "CodeID": "code-ad756a3c",
+        "DisplayText": "communication among stakeholders",
+        "CodeType": "Normal",
+        "NumericValue": 5,
+        "StringValue": "communication_among_stakeholders",
+        "VisibleInCoda": true
+      },
+      {
+        "CodeID": "code-8cac1ef0",
+        "DisplayText": "train teachers on cbc",
+        "CodeType": "Normal",
+        "NumericValue": 6,
+        "StringValue": "train_teachers_on_cbc",
+        "VisibleInCoda": true
+      },
+      {
         "CodeID": "code-6c79885e",
         "CodeType": "Normal",
         "DisplayText": "other theme",
