@@ -4,6 +4,102 @@
     "Version": "0.0.0.1",
     "Codes": [
       {
+        "CodeID": "code-73527410",
+        "DisplayText": "corruption",
+        "CodeType": "Normal",
+        "NumericValue": 1,
+        "StringValue": "corruption",
+        "VisibleInCoda": true
+      },
+      {
+        "CodeID": "code-0c508c37",
+        "DisplayText": "low level of education",
+        "CodeType": "Normal",
+        "NumericValue": 2,
+        "StringValue": "low_level_of_education",
+        "VisibleInCoda": true
+      },
+      {
+        "CodeID": "code-f8b4e8f0",
+        "DisplayText": "illiteracy",
+        "CodeType": "Normal",
+        "NumericValue": 3,
+        "StringValue": "illiteracy",
+        "VisibleInCoda": true
+      },
+      {
+        "CodeID": "code-08b9a204",
+        "DisplayText": "low salaries",
+        "CodeType": "Normal",
+        "NumericValue": 4,
+        "StringValue": "low_salaries",
+        "VisibleInCoda": true
+      },
+      {
+        "CodeID": "code-0fe17bc4",
+        "DisplayText": "high competition",
+        "CodeType": "Normal",
+        "NumericValue": 5,
+        "StringValue": "high_competition",
+        "VisibleInCoda": true
+      },
+      {
+        "CodeID": "code-56762b8f",
+        "DisplayText": "limited job opportunities",
+        "CodeType": "Normal",
+        "NumericValue": 6,
+        "StringValue": "limited_job_opportunities",
+        "VisibleInCoda": true
+      },
+      {
+        "CodeID": "code-202f5330",
+        "DisplayText": "lack of skills",
+        "CodeType": "Normal",
+        "NumericValue": 7,
+        "StringValue": "lack_of_skills",
+        "VisibleInCoda": true
+      },
+      {
+        "CodeID": "code-e833f015",
+        "DisplayText": "drug abuse",
+        "CodeType": "Normal",
+        "NumericValue": 8,
+        "StringValue": "drug_abuse",
+        "VisibleInCoda": true
+      },
+      {
+        "CodeID": "code-464384a3",
+        "DisplayText": "lack of information",
+        "CodeType": "Normal",
+        "NumericValue": 9,
+        "StringValue": "lack_of_information",
+        "VisibleInCoda": true
+      },
+      {
+        "CodeID": "code-e8d85855",
+        "DisplayText": "mistreatment of refugees",
+        "CodeType": "Normal",
+        "NumericValue": 10,
+        "StringValue": "mistreatment_of_refugees",
+        "VisibleInCoda": true
+      },
+      {
+        "CodeID": "code-df0f39d7",
+        "DisplayText": "lack of technology access",
+        "CodeType": "Normal",
+        "NumericValue": 11,
+        "StringValue": "lack_of_technology_access",
+        "VisibleInCoda": true
+      },
+      {
+        "CodeID": "code-6df2a3e9",
+        "DisplayText": "poor working condition",
+        "CodeType": "Normal",
+        "NumericValue": 12,
+        "StringValue": "poor_working_condition",
+        "VisibleInCoda": true
+      },
+      {
         "CodeID": "code-6c79885e",
         "CodeType": "Normal",
         "DisplayText": "other theme",
