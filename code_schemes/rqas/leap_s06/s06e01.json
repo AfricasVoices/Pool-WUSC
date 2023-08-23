@@ -4,6 +4,78 @@
     "Version": "0.0.0.1",
     "Codes": [
       {
+        "CodeID": "code-cc3f3dfa",
+        "DisplayText": "entertainment industry",
+        "CodeType": "Normal",
+        "NumericValue": 1,
+        "StringValue": "entertainment_industry",
+        "VisibleInCoda": true
+      },
+      {
+        "CodeID": "code-c6a15d50",
+        "DisplayText": "business",
+        "CodeType": "Normal",
+        "NumericValue": 2,
+        "StringValue": "business",
+        "VisibleInCoda": true
+      },
+      {
+        "CodeID": "code-824a307d",
+        "DisplayText": "skill work",
+        "CodeType": "Normal",
+        "NumericValue": 3,
+        "StringValue": "skill_work",
+        "VisibleInCoda": true
+      },
+      {
+        "CodeID": "code-695ace40",
+        "DisplayText": "agriculture",
+        "CodeType": "Normal",
+        "NumericValue": 4,
+        "StringValue": "agriculture",
+        "VisibleInCoda": true
+      },
+      {
+        "CodeID": "code-93cdea27",
+        "DisplayText": "teaching",
+        "CodeType": "Normal",
+        "NumericValue": 5,
+        "StringValue": "teaching",
+        "VisibleInCoda": true
+      },
+      {
+        "CodeID": "code-c041b8ab",
+        "DisplayText": "online activities",
+        "CodeType": "Normal",
+        "NumericValue": 6,
+        "StringValue": "online_activities",
+        "VisibleInCoda": true
+      },
+      {
+        "CodeID": "code-2e50122b",
+        "DisplayText": "apply for jobs",
+        "CodeType": "Normal",
+        "NumericValue": 7,
+        "StringValue": "apply_for_jobs",
+        "VisibleInCoda": true
+      },
+      {
+        "CodeID": "code-42ff3dd5",
+        "DisplayText": "enroll in technical training",
+        "CodeType": "Normal",
+        "NumericValue": 8,
+        "StringValue": "enroll_in_technical_training",
+        "VisibleInCoda": true
+      },
+      {
+        "CodeID": "code-ce017e4a",
+        "DisplayText": "table banking",
+        "CodeType": "Normal",
+        "NumericValue": 9,
+        "StringValue": "table_banking",
+        "VisibleInCoda": true
+      },
+      {
         "CodeID": "code-6c79885e",
         "CodeType": "Normal",
         "DisplayText": "other theme",
