@@ -4,6 +4,78 @@
     "Version": "0.0.0.1",
     "Codes": [
         {
+            "CodeID": "code-d5ad07d4",
+            "DisplayText": "join savings groups",
+            "CodeType": "Normal",
+            "NumericValue": 1,
+            "StringValue": "join_savings_groups",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-5b530496",
+            "DisplayText": "enroll in school or training",
+            "CodeType": "Normal",
+            "NumericValue": 2,
+            "StringValue": "enroll_in_school_or_training",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-33b62f48",
+            "DisplayText": "attending learning events",
+            "CodeType": "Normal",
+            "NumericValue": 3,
+            "StringValue": "attending_learning_events",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-16523178",
+            "DisplayText": "online learning",
+            "CodeType": "Normal",
+            "NumericValue": 4,
+            "StringValue": "online_learning",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-de01c272",
+            "DisplayText": "reading financial literature",
+            "CodeType": "Normal",
+            "NumericValue": 5,
+            "StringValue": "reading_financial_literature",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-dd1fc23c",
+            "DisplayText": "learn from others",
+            "CodeType": "Normal",
+            "NumericValue": 6,
+            "StringValue": "learn_from_others",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-a1c42c44",
+            "DisplayText": "follow market trends",
+            "CodeType": "Normal",
+            "NumericValue": 7,
+            "StringValue": "follow_market_trends",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-c0d2f629",
+            "DisplayText": "practising good financial management",
+            "CodeType": "Normal",
+            "NumericValue": 8,
+            "StringValue": "practising_good_financial_management",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-40490b7f",
+            "DisplayText": "support from family and friends",
+            "CodeType": "Normal",
+            "NumericValue": 9,
+            "StringValue": "support_from_family_and_friends",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-6c79885e",
             "CodeType": "Normal",
             "DisplayText": "other theme",
