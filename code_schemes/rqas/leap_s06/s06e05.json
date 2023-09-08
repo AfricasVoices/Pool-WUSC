@@ -4,6 +4,78 @@
     "Version": "0.0.0.1",
     "Codes": [
       {
+        "CodeID": "code-06f655e9",
+        "DisplayText": "lack of awareness ",
+        "CodeType": "Normal",
+        "NumericValue": 1,
+        "StringValue": "lack_of_awareness",
+        "VisibleInCoda": true
+      },
+      {
+        "CodeID": "code-f1dcdd72",
+        "DisplayText": "negative perceptions",
+        "CodeType": "Normal",
+        "NumericValue": 2,
+        "StringValue": "negative_perceptions",
+        "VisibleInCoda": true
+      },
+      {
+        "CodeID": "code-e967cd79",
+        "DisplayText": "cultural taboos",
+        "CodeType": "Normal",
+        "NumericValue": 3,
+        "StringValue": "cultural_taboos",
+        "VisibleInCoda": true
+      },
+      {
+        "CodeID": "code-add43518",
+        "DisplayText": "religious beliefs",
+        "CodeType": "Normal",
+        "NumericValue": 4,
+        "StringValue": "religious_beliefs",
+        "VisibleInCoda": true
+      },
+      {
+        "CodeID": "code-14d8a1dc",
+        "DisplayText": "lack of education",
+        "CodeType": "Normal",
+        "NumericValue": 5,
+        "StringValue": "lack_of_education",
+        "VisibleInCoda": true
+      },
+      {
+        "CodeID": "code-0c3675a7",
+        "DisplayText": "fear of side effects",
+        "CodeType": "Normal",
+        "NumericValue": 6,
+        "StringValue": "fear_of_side_effects",
+        "VisibleInCoda": true
+      },
+      {
+        "CodeID": "code-d881c352",
+        "DisplayText": "distrust of health workers ",
+        "CodeType": "Normal",
+        "NumericValue": 7,
+        "StringValue": "distrust_of_health_workers",
+        "VisibleInCoda": true
+      },
+      {
+        "CodeID": "code-bc9b1e8e",
+        "DisplayText": "lack of access to facilities",
+        "CodeType": "Normal",
+        "NumericValue": 8,
+        "StringValue": "lack_of_access_to_facilities",
+        "VisibleInCoda": true
+      },
+      {
+        "CodeID": "code-b8b0847f",
+        "DisplayText": "stigmatization",
+        "CodeType": "Normal",
+        "NumericValue": 9,
+        "StringValue": "stigmatization",
+        "VisibleInCoda": true
+      },
+      {
         "CodeID": "code-6c79885e",
         "CodeType": "Normal",
         "DisplayText": "other theme",
