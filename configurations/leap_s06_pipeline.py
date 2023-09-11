@@ -160,7 +160,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
             )
         ),
         KoboToolBoxSource(
-            token_file_url="gs://avf-credentials/wusc-kobotoolbox-token.json",
+            token_file_url="gs://avf-credentials/wusc-kobotoolbox-s06e06-token.json",
             sync_config=KoboToolBoxToEngagementDBConfiguration(
                 asset_uid="aF39H9MJFtTwF7t639xHEv",
                 participant_id_configuration=KoboToolBoxParticipantIdConfiguration(
