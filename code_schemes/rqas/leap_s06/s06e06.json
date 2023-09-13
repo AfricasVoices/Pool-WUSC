@@ -4,6 +4,62 @@
     "Version": "0.0.0.1",
     "Codes": [
         {
+            "CodeID": "code-80c3eb32",
+            "DisplayText": "sensitization activity",
+            "CodeType": "Normal",
+            "NumericValue": 1,
+            "StringValue": "sensitization_activity",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-48bf1aff",
+            "DisplayText": "engage community leaders",
+            "CodeType": "Normal",
+            "NumericValue": 2,
+            "StringValue": "engage_community_leaders",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-0b5d82f0",
+            "DisplayText": "report to authorities",
+            "CodeType": "Normal",
+            "NumericValue": 3,
+            "StringValue": "report_to_authorities",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-d6d13606",
+            "DisplayText": "support gbv survivors",
+            "CodeType": "Normal",
+            "NumericValue": 4,
+            "StringValue": "support_gbv_survivors",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-306a9c42",
+            "DisplayText": "community action",
+            "CodeType": "Normal",
+            "NumericValue": 5,
+            "StringValue": "community_action",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-bcba197a",
+            "DisplayText": "empowering women",
+            "CodeType": "Normal",
+            "NumericValue": 6,
+            "StringValue": "empowering_women",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-a2be1fc4",
+            "DisplayText": "no action taken",
+            "CodeType": "Normal",
+            "NumericValue": 7,
+            "StringValue": "no_action_taken",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-6c79885e",
             "CodeType": "Normal",
             "DisplayText": "other theme",
