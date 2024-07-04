@@ -81,6 +81,39 @@
       ]
     },
     {
+      "CodeID": "code-9839a2d4",
+      "CodeType": "Normal",
+      "DisplayText": "leap s07e01",
+      "StringValue": "leap_s07e01",
+      "NumericValue": 102,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "leap s07e01"
+      ]
+    },
+    {
+      "CodeID": "code-3509c0c8",
+      "CodeType": "Normal",
+      "DisplayText": "leap s07e02",
+      "StringValue": "leap_s07e02",
+      "NumericValue": 103,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "leap s07e02"
+      ]
+    },
+    {
+      "CodeID": "code-c0bde40f",
+      "CodeType": "Normal",
+      "DisplayText": "leap s07e03",
+      "StringValue": "leap_s07e03",
+      "NumericValue": 104,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "leap s06e03"
+      ]
+    },
+    {
       "CodeID": "code-82096d36",
       "CodeType": "Normal",
       "DisplayText": "leap s06e01",
