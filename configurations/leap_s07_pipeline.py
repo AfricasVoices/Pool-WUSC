@@ -24,12 +24,12 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
             ),
             sync_config=RapidProToEngagementDBConfiguration(
                 flow_result_configurations=[
-                    FlowResultConfiguration("wusc_leap_s07_kalobeyei_demogs", "age", "kakuma_age"),
-                    FlowResultConfiguration("wusc_leap_s07_kalobeyei_demogs", "gender", "kakuma_gender"),
-                    FlowResultConfiguration("wusc_leap_s07_kalobeyei_demogs", "location", "kakuma_location"),
-                    FlowResultConfiguration("wusc_leap_s07_kalobeyei_demogs", "disability", "kakuma_disabled"),
-                    FlowResultConfiguration("wusc_leap_s07_kalobeyei_demogs", "nationality", "kakuma_nationality"),
-                    FlowResultConfiguration("wusc_leap_s07_kalobeyei_demogs", "household language", "kakuma_preffered_language"),
+                    FlowResultConfiguration("wusc_leap_s07_demogs", "age", "kakuma_age"),
+                    FlowResultConfiguration("wusc_leap_s07_demogs", "gender", "kakuma_gender"),
+                    FlowResultConfiguration("wusc_leap_s07_demogs", "location", "kakuma_location"),
+                    FlowResultConfiguration("wusc_leap_s07_demogs", "disability", "kakuma_disabled"),
+                    FlowResultConfiguration("wusc_leap_s07_demogs", "nationality", "kakuma_nationality"),
+                    FlowResultConfiguration("wusc_leap_s07_demogs", "household language", "kakuma_preffered_language"),
                 ]
             )
         ),
