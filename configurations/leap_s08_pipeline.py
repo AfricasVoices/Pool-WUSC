@@ -58,7 +58,6 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                                                      label="leap s08 advert contact"),
             sync_advert_contacts=True,
         )
-
     ),
     archive_configuration=ArchiveConfiguration(
         archive_upload_bucket="gs://pipeline-execution-backup-archive",
