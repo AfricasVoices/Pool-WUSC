@@ -94,6 +94,87 @@
             "MatchValues": ["leap s07e03"]
         },
         {
+            "CodeID": "code-7bc48156",
+            "CodeType": "Normal",
+            "DisplayText": "leap s07e04",
+            "StringValue": "leap_s07e04",
+            "NumericValue": 105,
+            "VisibleInCoda": true,
+            "MatchValues": ["leap s07e04"]
+        },
+        {
+            "CodeID": "code-94279646",
+            "CodeType": "Normal",
+            "DisplayText": "leap s07e05",
+            "StringValue": "leap_s07e05",
+            "NumericValue": 106,
+            "VisibleInCoda": true,
+            "MatchValues": ["leap s07e05"]
+        },
+        {
+            "CodeID": "code-9b18ec03",
+            "CodeType": "Normal",
+            "DisplayText": "leap s07e06",
+            "StringValue": "leap_s07e06",
+            "NumericValue": 107,
+            "VisibleInCoda": true,
+            "MatchValues": ["leap s07e06"]
+        },
+        {
+            "CodeID": "code-124c0e11",
+            "CodeType": "Normal",
+            "DisplayText": "leap s08e01",
+            "StringValue": "leap_s08e01",
+            "NumericValue": 108,
+            "VisibleInCoda": true,
+            "MatchValues": ["leap s08e01"]
+        },
+        {
+            "CodeID": "code-dfce9433",
+            "CodeType": "Normal",
+            "DisplayText": "leap s08e02",
+            "StringValue": "leap_s08e02",
+            "NumericValue": 109,
+            "VisibleInCoda": true,
+            "MatchValues": ["leap s08e02"]
+        },
+        {
+            "CodeID": "code-957d98f1",
+            "CodeType": "Normal",
+            "DisplayText": "leap s08e03",
+            "StringValue": "leap_s08e03",
+            "NumericValue": 110,
+            "VisibleInCoda": true,
+            "MatchValues": ["leap s08e03"]
+        },
+        {
+            "CodeID": "code-cd1c6604",
+            "CodeType": "Normal",
+            "DisplayText": "leap s08e04",
+            "StringValue": "leap_s08e04",
+            "NumericValue": 111,
+            "VisibleInCoda": true,
+            "MatchValues": ["leap s08e04"]
+        },
+        {
+            "CodeID": "code-2999fa66",
+            "CodeType": "Normal",
+            "DisplayText": "leap s08e05",
+            "StringValue": "leap_s08e05",
+            "NumericValue": 112,
+            "VisibleInCoda": true,
+            "MatchValues": ["leap s08e05"]
+        },
+        {
+            "CodeID": "code-6c6cc67d",
+            "CodeType": "Normal",
+            "DisplayText": "leap s08e06",
+            "StringValue": "leap_s08e06",
+            "NumericValue": 113,
+            "VisibleInCoda": true,
+            "MatchValues": ["leap s08e06"]
+        },
+        {
             "CodeID": "code-82096d36",
             "CodeType": "Normal",
             "DisplayText": "leap s06e01",
