@@ -24,6 +24,19 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
             ),
             sync_config=RapidProToEngagementDBConfiguration(
                 flow_result_configurations=[
+                    FlowResultConfiguration("wusc_leap_s07e01_activation", "rqa_s07e01", "leap_s07e01"),
+                    # FlowResultConfiguration("wusc_leap_s07e02_activation", "rqa_s07e02", "leap_s07e02"),
+                    # FlowResultConfiguration("wusc_leap_s07e03_activation", "rqa_s07e03", "leap_s07e03"),
+                    # FlowResultConfiguration("wusc_leap_s07e04_activation", "rqa_s07e04", "leap_s07e04"),
+                    # FlowResultConfiguration("wusc_leap_s07e05_activation", "rqa_s07e05", "leap_s07e05"),
+                    # FlowResultConfiguration("wusc_leap_s07e06_activation", "rqa_s07e06", "leap_s07e06"),
+
+                    FlowResultConfiguration("wusc_leap_s07e01_mid_evaluation", "leap_lessons_learnt", "leap_lessons_learnt"),
+                    FlowResultConfiguration("wusc_leap_s07e01_mid_evaluation", "leap_attitude_change", "leap_attitude_change"),
+                    FlowResultConfiguration("wusc_leap_s07e01_mid_evaluation", "leap_community_change", "leap_community_change"),
+                    FlowResultConfiguration("wusc_leap_s07e01_mid_evaluation", "leap_actions_taken", "leap_actions_taken"),
+                    FlowResultConfiguration("wusc_leap_s07e01_mid_evaluation", "leap_lessons_carried_forward", "leap_lessons_carried_forward"),
+
                     FlowResultConfiguration("wusc_leap_s07_demogs", "age", "kakuma_age"),
                     FlowResultConfiguration("wusc_leap_s07_demogs", "gender", "kakuma_gender"),
                     FlowResultConfiguration("wusc_leap_s07_demogs", "location", "kakuma_location"),
