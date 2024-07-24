@@ -121,6 +121,51 @@
             "MatchValues": ["leap s07e06"]
         },
         {
+            "CodeID": "code-d4356e67",
+            "CodeType": "Normal",
+            "DisplayText": "leap lessons learnt",
+            "StringValue": "leap_lessons_learnt",
+            "NumericValue": 114,
+            "VisibleInCoda": true,
+            "MatchValues": ["leap lessons learnt"]
+        },
+        {
+            "CodeID": "code-3f810fc5",
+            "CodeType": "Normal",
+            "DisplayText": "leap attitude change",
+            "StringValue": "leap_attitude_change",
+            "NumericValue": 115,
+            "VisibleInCoda": true,
+            "MatchValues": ["leap attitude change"]
+        },
+        {
+            "CodeID": "code-d79dd9e2",
+            "CodeType": "Normal",
+            "DisplayText": "leap community change",
+            "StringValue": "leap_community_change",
+            "NumericValue": 116,
+            "VisibleInCoda": true,
+            "MatchValues": ["leap community change"]
+        },
+        {
+            "CodeID": "code-eeaefb68",
+            "CodeType": "Normal",
+            "DisplayText": "leap actions taken",
+            "StringValue": "leap_actions_taken",
+            "NumericValue": 117,
+            "VisibleInCoda": true,
+            "MatchValues": ["leap actions taken"]
+        },
+        {
+            "CodeID": "code-4e213bd8",
+            "CodeType": "Normal",
+            "DisplayText": "leap lessons carried forward",
+            "StringValue": "leap_lessons_carried_forward",
+            "NumericValue": 118,
+            "VisibleInCoda": true,
+            "MatchValues": ["leap lessons carried forward"]
+        },
+        {
             "CodeID": "code-124c0e11",
             "CodeType": "Normal",
             "DisplayText": "leap s08e01",
