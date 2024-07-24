@@ -33,7 +33,7 @@ CONFIGURATION_FILE=$3
 CODE_SCHEMES_DIR=$4
 DATA_DIR=$5
 
-CMD="pipenv run python -u engagement_db_to_analysis.py ${INCREMENTAL_ARG} ${USER} \
+CMD="pdm run python -u engagement_db_to_analysis.py ${INCREMENTAL_ARG} ${USER} \
     /credentials/google-cloud-credentials.json configuration /data/membership-groups /data/analysis-outputs"
 
 if [[ "$INCREMENTAL_ARG" ]]; then

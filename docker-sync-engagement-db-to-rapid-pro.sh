@@ -32,7 +32,7 @@ GOOGLE_CLOUD_CREDENTIALS_PATH=$2
 CONFIGURATION_FILE=$3
 CODE_SCHEMES_DIR=$4
 
-CMD="pipenv run python -u sync_engagement_db_to_rapid_pro.py ${INCREMENTAL_ARG} ${USER} \
+CMD="pdm run python -u sync_engagement_db_to_rapid_pro.py ${INCREMENTAL_ARG} ${USER} \
     /credentials/google-cloud-credentials.json configuration"
 
 if [[ "$INCREMENTAL_ARG" ]]; then
