@@ -53,6 +53,51 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
         sync_config=CodaSyncConfiguration(
             dataset_configurations=[
                 CodaDatasetConfiguration(
+                    coda_dataset_id="LEAP_lessons_learnt",
+                    engagement_db_dataset="leap_lessons_learnt",
+                    code_scheme_configurations=[
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqas/leap_s07/lessons_learnt"),
+                                                auto_coder=None, coda_code_schemes_count=3)
+                    ],
+                    ws_code_match_value="leap lessons learnt"
+                ),
+                CodaDatasetConfiguration(
+                    coda_dataset_id="LEAP_attitude_change",
+                    engagement_db_dataset="leap_attitude_change",
+                    code_scheme_configurations=[
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqas/leap_s07/attitude_change"),
+                                                auto_coder=None, coda_code_schemes_count=3)
+                    ],
+                    ws_code_match_value="leap attitude change"
+                ),
+                CodaDatasetConfiguration(
+                    coda_dataset_id="LEAP_community_change",
+                    engagement_db_dataset="leap_community_change",
+                    code_scheme_configurations=[
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqas/leap_s07/community_change"),
+                                                auto_coder=None, coda_code_schemes_count=3)
+                    ],
+                    ws_code_match_value="leap community change"
+                ),
+                CodaDatasetConfiguration(
+                    coda_dataset_id="LEAP_actions_taken",
+                    engagement_db_dataset="leap_actions_taken",
+                    code_scheme_configurations=[
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqas/leap_s07/actions_taken"),
+                                                auto_coder=None, coda_code_schemes_count=3)
+                    ],
+                    ws_code_match_value="leap actions taken"
+                ),
+                CodaDatasetConfiguration(
+                    coda_dataset_id="LEAP_lessons_carried_forward",
+                    engagement_db_dataset="leap_lessons_carried_forward",
+                    code_scheme_configurations=[
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqas/leap_s07/lessons_carried_forward"),
+                                                auto_coder=None, coda_code_schemes_count=3)
+                    ],
+                    ws_code_match_value="leap lessons carried forward"
+                ),
+                CodaDatasetConfiguration(
                     coda_dataset_id="LEAP_s07e01",
                     engagement_db_dataset="leap_s07e01",
                     code_scheme_configurations=[
@@ -183,6 +228,61 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
             drive_dir="leap_s07_analysis_output"
         ),
         dataset_configurations=[
+            AnalysisDatasetConfiguration(
+                engagement_db_datasets=["leap_lessons_learnt"],
+                dataset_type=DatasetTypes.RESEARCH_QUESTION_ANSWER,
+                raw_dataset="leap_lessons_learnt_raw",
+                coding_configs=[
+                    CodingConfiguration(
+                        code_scheme=load_code_scheme("rqas/leap_s07/lessons_learnt"),
+                        analysis_dataset="lessons_learnt"
+                    )
+                ],
+            ),
+            AnalysisDatasetConfiguration(
+                engagement_db_datasets=["leap_attitude_change"],
+                dataset_type=DatasetTypes.RESEARCH_QUESTION_ANSWER,
+                raw_dataset="leap_attitude_change_raw",
+                coding_configs=[
+                    CodingConfiguration(
+                        code_scheme=load_code_scheme("rqas/leap_s07/attitude_change"),
+                        analysis_dataset="attitude_change"
+                    )
+                ],
+            ),
+            AnalysisDatasetConfiguration(
+                engagement_db_datasets=["leap_community_change"],
+                dataset_type=DatasetTypes.RESEARCH_QUESTION_ANSWER,
+                raw_dataset="leap_community_change_raw",
+                coding_configs=[
+                    CodingConfiguration(
+                        code_scheme=load_code_scheme("rqas/leap_s07/community_change"),
+                        analysis_dataset="community_change"
+                    )
+                ],
+            ),
+            AnalysisDatasetConfiguration(
+                engagement_db_datasets=["leap_actions_taken"],
+                dataset_type=DatasetTypes.RESEARCH_QUESTION_ANSWER,
+                raw_dataset="leap_actions_taken_raw",
+                coding_configs=[
+                    CodingConfiguration(
+                        code_scheme=load_code_scheme("rqas/leap_s07/actions_taken"),
+                        analysis_dataset="actions_taken"
+                    )
+                ],
+            ),
+            AnalysisDatasetConfiguration(
+                engagement_db_datasets=["leap_lessons_carried_forward"],
+                dataset_type=DatasetTypes.RESEARCH_QUESTION_ANSWER,
+                raw_dataset="leap_lessons_carried_forward_raw",
+                coding_configs=[
+                    CodingConfiguration(
+                        code_scheme=load_code_scheme("rqas/leap_s07/lessons_carried_forwar"),
+                        analysis_dataset="lessons_carried_forwar"
+                    )
+                ],
+            ),
             AnalysisDatasetConfiguration(
                 engagement_db_datasets=["leap_s07e01"],
                 dataset_type=DatasetTypes.RESEARCH_QUESTION_ANSWER,
