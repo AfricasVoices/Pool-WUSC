@@ -278,8 +278,8 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                 raw_dataset="leap_lessons_carried_forward_raw",
                 coding_configs=[
                     CodingConfiguration(
-                        code_scheme=load_code_scheme("rqas/leap_s07/lessons_carried_forwar"),
-                        analysis_dataset="lessons_carried_forwar"
+                        code_scheme=load_code_scheme("rqas/leap_s07/lessons_carried_forward"),
+                        analysis_dataset="lessons_carried_forward"
                     )
                 ],
             ),
