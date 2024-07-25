@@ -57,7 +57,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
     ],
     kobotoolbox_sources=[
         KoboToolBoxSource(
-            token_file_url="gs://avf-credentials/wusc-kobotoolbox-token.json",
+            token_file_url="gs://avf-credentials/uraia-kobotoolbox-token.json",
             sync_config=KoboToolBoxToEngagementDBConfiguration(
                 asset_uid="aLxScP8UmQuPEmPc9YVVeo",
                 participant_id_configuration=KoboToolBoxParticipantIdConfiguration(
