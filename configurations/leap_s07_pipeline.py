@@ -33,8 +33,8 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
             sync_config=RapidProToEngagementDBConfiguration(
                 flow_result_configurations=[
                     FlowResultConfiguration("wusc_leap_s07e01_activation", "rqa_s07e01", "leap_s07e01"),
-                    # FlowResultConfiguration("wusc_leap_s07e02_activation", "rqa_s07e02", "leap_s07e02"),
-                    # FlowResultConfiguration("wusc_leap_s07e03_activation", "rqa_s07e03", "leap_s07e03"),
+                    FlowResultConfiguration("wusc_leap_s07e02_activation", "rqa_s07e02", "leap_s07e02"),
+                    FlowResultConfiguration("wusc_leap_s07e03_activation", "rqa_s07e03", "leap_s07e03"),
                     # FlowResultConfiguration("wusc_leap_s07e04_activation", "rqa_s07e04", "leap_s07e04"),
                     # FlowResultConfiguration("wusc_leap_s07e05_activation", "rqa_s07e05", "leap_s07e05"),
                     # FlowResultConfiguration("wusc_leap_s07e06_activation", "rqa_s07e06", "leap_s07e06"),
