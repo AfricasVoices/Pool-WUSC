@@ -4,6 +4,70 @@
     "Version": "0.0.0.1",
     "Codes": [
         {
+            "CodeID": "code-858358d6",
+            "DisplayText": "financial support",
+            "CodeType": "Normal",
+            "NumericValue": 1,
+            "StringValue": "financial_support",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-0ea0b830",
+            "DisplayText": "skills training",
+            "CodeType": "Normal",
+            "NumericValue": 2,
+            "StringValue": "skills_training",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-d0c0819d",
+            "DisplayText": "business training",
+            "CodeType": "Normal",
+            "NumericValue": 3,
+            "StringValue": "business_training",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-65e609d7",
+            "DisplayText": "networking",
+            "CodeType": "Normal",
+            "NumericValue": 4,
+            "StringValue": "networking",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-dbef88f9",
+            "DisplayText": "provision of incentives",
+            "CodeType": "Normal",
+            "NumericValue": 5,
+            "StringValue": "provision_of_incentives",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-c0aee4b5",
+            "DisplayText": "digital literacy",
+            "CodeType": "Normal",
+            "NumericValue": 6,
+            "StringValue": "digital_literacy",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-e75193ea",
+            "DisplayText": "create enabling environment",
+            "CodeType": "Normal",
+            "NumericValue": 7,
+            "StringValue": "create_enabling_environment",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-2d03795e",
+            "DisplayText": "provide mentorship programs",
+            "CodeType": "Normal",
+            "NumericValue": 8,
+            "StringValue": "provide_mentorship_programs",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-6c79885e",
             "CodeType": "Normal",
             "DisplayText": "other theme",
