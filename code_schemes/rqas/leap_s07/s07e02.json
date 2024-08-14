@@ -4,6 +4,46 @@
     "Version": "0.0.0.1",
     "Codes": [
         {
+            "CodeID": "code-d9078282",
+            "DisplayText": "create and monetize content",
+            "CodeType": "Normal",
+            "NumericValue": 1,
+            "StringValue": "create_and_monetize_content",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-e5955acb",
+            "DisplayText": "seek and offer services",
+            "CodeType": "Normal",
+            "NumericValue": 2,
+            "StringValue": "seek_and_offer_services",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-a79a284b",
+            "DisplayText": "engage in online marketplaces",
+            "CodeType": "Normal",
+            "NumericValue": 3,
+            "StringValue": "engage_in_online_marketplaces",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-3847edd3",
+            "DisplayText": "access information online",
+            "CodeType": "Normal",
+            "NumericValue": 4,
+            "StringValue": "access_information_online",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-8db01b97",
+            "DisplayText": "network and collaborate",
+            "CodeType": "Normal",
+            "NumericValue": 5,
+            "StringValue": "network_and_collaborate",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-6c79885e",
             "CodeType": "Normal",
             "DisplayText": "other theme",
