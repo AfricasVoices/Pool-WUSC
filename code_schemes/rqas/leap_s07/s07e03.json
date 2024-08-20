@@ -4,6 +4,46 @@
     "Version": "0.0.0.1",
     "Codes": [
         {
+            "CodeID": "code-bc3a1cd0",
+            "DisplayText": "mobilize funds",
+            "CodeType": "Normal",
+            "NumericValue": 1,
+            "StringValue": "mobilize_funds",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-fefa16fb",
+            "DisplayText": "access cheap loans",
+            "CodeType": "Normal",
+            "NumericValue": 2,
+            "StringValue": "access_cheap_loans",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-bffcd6aa",
+            "DisplayText": "network with stakeholders",
+            "CodeType": "Normal",
+            "NumericValue": 3,
+            "StringValue": "network_with_stakeholders",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-936c4029",
+            "DisplayText": "invest jointly",
+            "CodeType": "Normal",
+            "NumericValue": 4,
+            "StringValue": "invest_jointly",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-28c56edd",
+            "DisplayText": "access skills and knowledge",
+            "CodeType": "Normal",
+            "NumericValue": 5,
+            "StringValue": "access_skills_and_knowledge",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-6c79885e",
             "CodeType": "Normal",
             "DisplayText": "other theme",
