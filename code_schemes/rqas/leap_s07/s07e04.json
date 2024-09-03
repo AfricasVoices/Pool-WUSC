@@ -4,6 +4,46 @@
     "Version": "0.0.0.1",
     "Codes": [
         {
+            "CodeID": "code-a82876d0",
+            "DisplayText": "take responsibility",
+            "CodeType": "Normal",
+            "NumericValue": 1,
+            "StringValue": "take_responsibility",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-39e895f0",
+            "DisplayText": "support women",
+            "CodeType": "Normal",
+            "NumericValue": 2,
+            "StringValue": "support_women",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-03425b38",
+            "DisplayText": "promote progressive policies",
+            "CodeType": "Normal",
+            "NumericValue": 3,
+            "StringValue": "promote_progressive_policies",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-b9904864",
+            "DisplayText": "promote gender equality",
+            "CodeType": "Normal",
+            "NumericValue": 4,
+            "StringValue": "promote_gender_equality",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-acda72a9",
+            "DisplayText": "learn and educate",
+            "CodeType": "Normal",
+            "NumericValue": 5,
+            "StringValue": "learn_and_educate",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-6c79885e",
             "CodeType": "Normal",
             "DisplayText": "other theme",
