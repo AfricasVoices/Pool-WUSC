@@ -4,6 +4,38 @@
     "Version": "0.0.0.1",
     "Codes": [
         {
+            "CodeID": "code-337b0c8d",
+            "DisplayText": "through awareness campaigns",
+            "CodeType": "Normal",
+            "NumericValue": 1,
+            "StringValue": "through_awareness_campaigns",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-9e6c7ace",
+            "DisplayText": "supporting community led initiatives",
+            "CodeType": "Normal",
+            "NumericValue": 2,
+            "StringValue": "supporting_community_led_initiatives",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-c0e9d740",
+            "DisplayText": "creating safe spaces",
+            "CodeType": "Normal",
+            "NumericValue": 3,
+            "StringValue": "creating_safe_spaces",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-73756a46",
+            "DisplayText": "offering gbv prevention trainings",
+            "CodeType": "Normal",
+            "NumericValue": 4,
+            "StringValue": "offering_gbv_prevention_trainings",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-6c79885e",
             "CodeType": "Normal",
             "DisplayText": "other theme",
