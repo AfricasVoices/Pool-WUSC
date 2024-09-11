@@ -36,6 +36,14 @@
             "VisibleInCoda": true
         },
         {
+            "CodeID": "code-94e4a551",
+            "CodeType": "Normal",
+            "DisplayText": "economic empowerment",
+            "NumericValue": 5,
+            "StringValue": "economic_empowerment",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-6c79885e",
             "CodeType": "Normal",
             "DisplayText": "other theme",
