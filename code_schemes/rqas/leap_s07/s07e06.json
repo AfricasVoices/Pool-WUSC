@@ -4,6 +4,54 @@
     "Version": "0.0.0.1",
     "Codes": [
         {
+            "CodeID": "code-3a7d5fe0",
+            "DisplayText": "reporting to the revelant authority",
+            "CodeType": "Normal",
+            "NumericValue": 1,
+            "StringValue": "reporting_to_the_revelant_authority",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-83d6c8ef",
+            "DisplayText": "offering relevant education",
+            "CodeType": "Normal",
+            "NumericValue": 2,
+            "StringValue": "offering_relevant_education",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-c30f2c99",
+            "DisplayText": "by creating awareness",
+            "CodeType": "Normal",
+            "NumericValue": 3,
+            "StringValue": "by_creating_awareness",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-ab3ada76",
+            "DisplayText": "establishing safe spaces",
+            "CodeType": "Normal",
+            "NumericValue": 4,
+            "StringValue": "establishing_safe_spaces",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-4e859629",
+            "DisplayText": "supporting survivors",
+            "CodeType": "Normal",
+            "NumericValue": 5,
+            "StringValue": "supporting_survivors",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-16b2530f",
+            "DisplayText": "advocating for policies",
+            "CodeType": "Normal",
+            "NumericValue": 6,
+            "StringValue": "advocating_for_policies",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-6c79885e",
             "CodeType": "Normal",
             "DisplayText": "other theme",
