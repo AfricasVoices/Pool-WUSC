@@ -17,19 +17,29 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
         credentials_file_url="gs://avf-credentials/avf-dashboards-firebase-adminsdk-gvecb-ef772e79b6.json",
     ),
     rapid_pro_sources=[
-        FlowResultConfiguration("wusc_leap_s08e01_activation", "rqa_s08e01", "leap_s08e01"),
-        FlowResultConfiguration("wusc_leap_s08e02_activation", "rqa_s08e02", "leap_s08e02"),
-        # FlowResultConfiguration("wusc_leap_s08e03_activation", "rqa_s08e03", "leap_s08e03"),
-        # FlowResultConfiguration("wusc_leap_s08e04_activation", "rqa_s08e04", "leap_s08e04"),
-        # FlowResultConfiguration("wusc_leap_s08e05_activation", "rqa_s08e05", "leap_s08e05"),
-        # FlowResultConfiguration("wusc_leap_s08e06_activation", "rqa_s08e06", "leap_s08e06"),
+        RapidProSource(
+            rapid_pro=RapidProClientConfiguration(
+                domain="textit.com", 
+                token_file_url="gs://avf-credentials/wusc-leap-kalobeyei-textit-token.txt"
+            ),
+            sync_config=RapidProToEngagementDBConfiguration(
+                flow_result_configurations=[
+                    FlowResultConfiguration("wusc_leap_s08e01_activation", "rqa_s08e01", "leap_s08e01"),
+                    FlowResultConfiguration("wusc_leap_s08e02_activation", "rqa_s08e02", "leap_s08e02"),
+                    # FlowResultConfiguration("wusc_leap_s08e03_activation", "rqa_s08e03", "leap_s08e03"),
+                    # FlowResultConfiguration("wusc_leap_s08e04_activation", "rqa_s08e04", "leap_s08e04"),
+                    # FlowResultConfiguration("wusc_leap_s08e05_activation", "rqa_s08e05", "leap_s08e05"),
+                    # FlowResultConfiguration("wusc_leap_s08e06_activation", "rqa_s08e06", "leap_s08e06"),
 
-        FlowResultConfiguration("wusc_leap_s07_demogs", "age", "kakuma_age"),
-        FlowResultConfiguration("wusc_leap_s07_demogs", "gender", "kakuma_gender"),
-        FlowResultConfiguration("wusc_leap_s07_demogs", "location", "kakuma_location"),
-        FlowResultConfiguration("wusc_leap_s07_demogs", "disability", "kakuma_disabled"),
-        FlowResultConfiguration("wusc_leap_s07_demogs", "nationality", "kakuma_nationality"),
-        FlowResultConfiguration("wusc_leap_s07_demogs", "household language", "kakuma_preffered_language"),
+                    FlowResultConfiguration("wusc_leap_s07_demogs", "age", "kakuma_age"),
+                    FlowResultConfiguration("wusc_leap_s07_demogs", "gender", "kakuma_gender"),
+                    FlowResultConfiguration("wusc_leap_s07_demogs", "location", "kakuma_location"),
+                    FlowResultConfiguration("wusc_leap_s07_demogs", "disability", "kakuma_disabled"),
+                    FlowResultConfiguration("wusc_leap_s07_demogs", "nationality", "kakuma_nationality"),
+                    FlowResultConfiguration("wusc_leap_s07_demogs", "household language", "kakuma_preffered_language"),
+                ]
+            )
+        )
     ],
     kobotoolbox_sources=[
 
