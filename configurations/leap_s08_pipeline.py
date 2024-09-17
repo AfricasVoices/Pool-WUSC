@@ -19,10 +19,10 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
     rapid_pro_sources=[
         FlowResultConfiguration("wusc_leap_s08e01_activation", "rqa_s08e01", "leap_s08e01"),
         FlowResultConfiguration("wusc_leap_s08e02_activation", "rqa_s08e02", "leap_s08e02"),
-        FlowResultConfiguration("wusc_leap_s08e03_activation", "rqa_s08e03", "leap_s08e03"),
-        FlowResultConfiguration("wusc_leap_s08e04_activation", "rqa_s08e04", "leap_s08e04"),
-        FlowResultConfiguration("wusc_leap_s08e05_activation", "rqa_s08e05", "leap_s08e05"),
-        FlowResultConfiguration("wusc_leap_s08e06_activation", "rqa_s08e06", "leap_s08e06"),
+        # FlowResultConfiguration("wusc_leap_s08e03_activation", "rqa_s08e03", "leap_s08e03"),
+        # FlowResultConfiguration("wusc_leap_s08e04_activation", "rqa_s08e04", "leap_s08e04"),
+        # FlowResultConfiguration("wusc_leap_s08e05_activation", "rqa_s08e05", "leap_s08e05"),
+        # FlowResultConfiguration("wusc_leap_s08e06_activation", "rqa_s08e06", "leap_s08e06"),
 
         FlowResultConfiguration("wusc_leap_s07_demogs", "age", "kakuma_age"),
         FlowResultConfiguration("wusc_leap_s07_demogs", "gender", "kakuma_gender"),
