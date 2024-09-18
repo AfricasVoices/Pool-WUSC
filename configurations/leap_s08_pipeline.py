@@ -1,6 +1,14 @@
 from core_data_modules.cleaners import swahili
 from src.pipeline_configuration_spec import *
 
+demogs_question_configurations = [
+    KoboToolBoxQuestionConfiguration(data_column_name="Gender", engagement_db_dataset="kakuma_gender"),
+    KoboToolBoxQuestionConfiguration(data_column_name="Age", engagement_db_dataset="kakuma_age"),
+    KoboToolBoxQuestionConfiguration(data_column_name="Location", engagement_db_dataset="kakuma_location"),
+    KoboToolBoxQuestionConfiguration(data_column_name="Disability", engagement_db_dataset="kakuma_disabled"),
+    KoboToolBoxQuestionConfiguration(data_column_name="Nationality", engagement_db_dataset="kakuma_nationality"),
+]
+
 
 PIPELINE_CONFIGURATION = PipelineConfiguration(
     pipeline_name="leap_s08",
