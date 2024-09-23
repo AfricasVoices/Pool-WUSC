@@ -436,7 +436,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
             allow_clearing_fields=False,
             weekly_advert_contact_field=ContactField(key="leap_s08_advert_contact",
                                                      label="leap s08 advert contact"),
-            sync_advert_contacts=True,
+            sync_advert_contacts=False,
         )
     ),
     archive_configuration=ArchiveConfiguration(
