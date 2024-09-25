@@ -4,6 +4,30 @@
     "Version": "0.0.0.1",
     "Codes": [
         {
+            "CodeID": "code-b80d330c",
+            "DisplayText": "validate foreign certificates",
+            "CodeType": "Normal",
+            "NumericValue": 1,
+            "StringValue": "validate_foreign_certificates",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-6836f2a9",
+            "DisplayText": "offer career guidance",
+            "CodeType": "Normal",
+            "NumericValue": 2,
+            "StringValue": "offer_career_guidance",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-f8fcc45c",
+            "DisplayText": "link job seekers with employers",
+            "CodeType": "Normal",
+            "NumericValue": 3,
+            "StringValue": "link_job_seekers_with_employers",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-6c79885e",
             "CodeType": "Normal",
             "DisplayText": "other theme",
