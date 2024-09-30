@@ -4,6 +4,78 @@
     "Version": "0.0.0.1",
     "Codes": [
         {
+            "CodeID": "code-ce1e57ca",
+            "DisplayText": "loan management",
+            "CodeType": "Normal",
+            "NumericValue": 1,
+            "StringValue": "loan_management",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-9278df82",
+            "DisplayText": "debt management",
+            "CodeType": "Normal",
+            "NumericValue": 2,
+            "StringValue": "debt_management",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-6ca936c1",
+            "DisplayText": "budgetting",
+            "CodeType": "Normal",
+            "NumericValue": 3,
+            "StringValue": "budgetting",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-e58f7553",
+            "DisplayText": "general financial skills",
+            "CodeType": "Normal",
+            "NumericValue": 4,
+            "StringValue": "general_financial_skills",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-df90855f",
+            "DisplayText": "expense management",
+            "CodeType": "Normal",
+            "NumericValue": 5,
+            "StringValue": "expense_management",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-1cfb48d6",
+            "DisplayText": "money saving",
+            "CodeType": "Normal",
+            "NumericValue": 6,
+            "StringValue": "money_saving",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-13e12970",
+            "DisplayText": "investment",
+            "CodeType": "Normal",
+            "NumericValue": 7,
+            "StringValue": "investment",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-10b47bb8",
+            "DisplayText": "risk management",
+            "CodeType": "Normal",
+            "NumericValue": 8,
+            "StringValue": "risk_management",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-705f426c",
+            "DisplayText": "tax management",
+            "CodeType": "Normal",
+            "NumericValue": 9,
+            "StringValue": "tax_management",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-6c79885e",
             "CodeType": "Normal",
             "DisplayText": "other theme",
