@@ -13,10 +13,10 @@
         },
         {
             "CodeID": "code-6836f2a9",
-            "DisplayText": "offer career guidance",
+            "DisplayText": "offer career support",
             "CodeType": "Normal",
             "NumericValue": 2,
-            "StringValue": "offer_career_guidance",
+            "StringValue": "offer_career_support",
             "VisibleInCoda": true
         },
         {
