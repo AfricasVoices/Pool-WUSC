@@ -4,6 +4,54 @@
     "Version": "0.0.0.1",
     "Codes": [
         {
+            "CodeID": "code-7e8062f8",
+            "DisplayText": "emphasize negative effects",
+            "CodeType": "Normal",
+            "NumericValue": 5,
+            "StringValue": "emphasize_negative_effects",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-5bf47ae2",
+            "DisplayText": "create safe spaces",
+            "CodeType": "Normal",
+            "NumericValue": 6,
+            "StringValue": "create_safe_spaces",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-a9776ba5",
+            "DisplayText": "facilitate open dialogues",
+            "CodeType": "Normal",
+            "NumericValue": 7,
+            "StringValue": "facilitate_open_dialogues",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-6f236aba",
+            "DisplayText": "provide srh trainings",
+            "CodeType": "Normal",
+            "NumericValue": 8,
+            "StringValue": "provide_srh_trainings",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-f63e3563",
+            "DisplayText": "early pregnancy awareness",
+            "CodeType": "Normal",
+            "NumericValue": 9,
+            "StringValue": "early_pregnancy_awareness",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-196ffe74",
+            "DisplayText": "report to relevant authorities",
+            "CodeType": "Normal",
+            "NumericValue": 10,
+            "StringValue": "report_to_relevant_authorities",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-6c79885e",
             "CodeType": "Normal",
             "DisplayText": "other theme",
