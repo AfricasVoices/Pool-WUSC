@@ -4,6 +4,102 @@
     "Version": "0.0.0.1",
     "Codes": [
         {
+            "CodeID": "code-5d8b3436",
+            "DisplayText": "provide safe houses",
+            "CodeType": "Normal",
+            "NumericValue": 1,
+            "StringValue": "provide_safe_houses",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-8a1ab769",
+            "DisplayText": "provide financial assistance",
+            "CodeType": "Normal",
+            "NumericValue": 2,
+            "StringValue": "provide_financial_assistance",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-9457a3cb",
+            "DisplayText": "provide counselling",
+            "CodeType": "Normal",
+            "NumericValue": 3,
+            "StringValue": "provide_counselling",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-6981acfc",
+            "DisplayText": "establish support groups",
+            "CodeType": "Normal",
+            "NumericValue": 4,
+            "StringValue": "establish_support_groups",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-148925f5",
+            "DisplayText": "povide safety tips",
+            "CodeType": "Normal",
+            "NumericValue": 5,
+            "StringValue": "povide_safety_tips",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-18c20a11",
+            "DisplayText": "advocate for policy strengthening",
+            "CodeType": "Normal",
+            "NumericValue": 6,
+            "StringValue": "advocate_for_policy_strengthening",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-98d1e7ce",
+            "DisplayText": "provide resources",
+            "CodeType": "Normal",
+            "NumericValue": 7,
+            "StringValue": "provide_resources",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-d7e97fcc",
+            "DisplayText": "promote mental well being",
+            "CodeType": "Normal",
+            "NumericValue": 8,
+            "StringValue": "promote_mental_well_being",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-188d768a",
+            "DisplayText": "raise awareness",
+            "CodeType": "Normal",
+            "NumericValue": 9,
+            "StringValue": "raise_awareness",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-2935407f",
+            "DisplayText": "provide legal assistance",
+            "CodeType": "Normal",
+            "NumericValue": 10,
+            "StringValue": "provide_legal_assistance",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-4fd87fcf",
+            "DisplayText": "through education and skills training",
+            "CodeType": "Normal",
+            "NumericValue": 11,
+            "StringValue": "through_education_and_skills_training",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-02f4e67e",
+            "DisplayText": "empowerment through soft skills",
+            "CodeType": "Normal",
+            "NumericValue": 12,
+            "StringValue": "empowerment_through_soft_skills",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-6c79885e",
             "CodeType": "Normal",
             "DisplayText": "other theme",
