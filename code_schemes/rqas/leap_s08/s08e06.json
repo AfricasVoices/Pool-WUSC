@@ -4,6 +4,86 @@
     "Version": "0.0.0.1",
     "Codes": [
         {
+            "CodeID": "code-1410c0c9",
+            "DisplayText": "providing helplines",
+            "CodeType": "Normal",
+            "NumericValue": 1,
+            "StringValue": "providing_helplines",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-55f7bf6f",
+            "DisplayText": "providing mental health services",
+            "CodeType": "Normal",
+            "NumericValue": 2,
+            "StringValue": "providing_mental_health_services",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-11461c3f",
+            "DisplayText": "mental health response training",
+            "CodeType": "Normal",
+            "NumericValue": 3,
+            "StringValue": "mental_health_response_training",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-263c0cf8",
+            "DisplayText": "offering life skills",
+            "CodeType": "Normal",
+            "NumericValue": 4,
+            "StringValue": "offering_life_skills",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-4a1b7856",
+            "DisplayText": "offering mental health education",
+            "CodeType": "Normal",
+            "NumericValue": 5,
+            "StringValue": "offering_mental_health_education",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-b3a89efd",
+            "DisplayText": "providing housing",
+            "CodeType": "Normal",
+            "NumericValue": 6,
+            "StringValue": "providing_housing",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-50b2b717",
+            "DisplayText": "providing physcosocial support",
+            "CodeType": "Normal",
+            "NumericValue": 7,
+            "StringValue": "providing_physcosocial_support",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-d9d33ac5",
+            "DisplayText": "advocating for mental health funding",
+            "CodeType": "Normal",
+            "NumericValue": 8,
+            "StringValue": "advocating_for_mental_health_funding",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-31532016",
+            "DisplayText": "establishing support groups",
+            "CodeType": "Normal",
+            "NumericValue": 9,
+            "StringValue": "establishing_support_groups",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-ec67d0ae",
+            "DisplayText": "raising awareness",
+            "CodeType": "Normal",
+            "NumericValue": 10,
+            "StringValue": "raising_awareness",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-6c79885e",
             "CodeType": "Normal",
             "DisplayText": "other theme",
