@@ -4,6 +4,118 @@
     "Version": "0.0.0.1",
     "Codes": [
         {
+            "CodeID": "code-95232a38",
+            "DisplayText": "through awareness campaigns",
+            "CodeType": "Normal",
+            "NumericValue": 1,
+            "StringValue": "through_awareness_campaigns",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-9f962962",
+            "DisplayText": "through GBV education",
+            "CodeType": "Normal",
+            "NumericValue": 2,
+            "StringValue": "through_gbv_education",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-0790ddf4",
+            "DisplayText": "highlighting survivor stories",
+            "CodeType": "Normal",
+            "NumericValue": 3,
+            "StringValue": "highlighting_survivor_stories",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-a9b7e4c8",
+            "DisplayText": "offering necessary support",
+            "CodeType": "Normal",
+            "NumericValue": 4,
+            "StringValue": "offering_necessary_support",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-97847005",
+            "DisplayText": "establishing reporting channels",
+            "CodeType": "Normal",
+            "NumericValue": 5,
+            "StringValue": "establishing_reporting_channels",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-ceb27d78",
+            "DisplayText": "advocating for policy strengthening",
+            "CodeType": "Normal",
+            "NumericValue": 6,
+            "StringValue": "advocating_for_policy_strengthening",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-215656c9",
+            "DisplayText": "establishing support networks",
+            "CodeType": "Normal",
+            "NumericValue": 7,
+            "StringValue": "establishing_support_networks",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-2b8a15b6",
+            "DisplayText": "establishing safe spaces",
+            "CodeType": "Normal",
+            "NumericValue": 8,
+            "StringValue": "establishing_safe_spaces",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-74697691",
+            "DisplayText": "through open dialogues",
+            "CodeType": "Normal",
+            "NumericValue": 9,
+            "StringValue": "through_open_dialogues",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-0aa5a579",
+            "DisplayText": "by involving men",
+            "CodeType": "Normal",
+            "NumericValue": 10,
+            "StringValue": "by_involving_men",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-f86d3df2",
+            "DisplayText": "involving community leaders",
+            "CodeType": "Normal",
+            "NumericValue": 11,
+            "StringValue": "involving_community_leaders",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-0c88e12d",
+            "DisplayText": "collaborating with institutions",
+            "CodeType": "Normal",
+            "NumericValue": 12,
+            "StringValue": "collaborating_with_institutions",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-ab97828b",
+            "DisplayText": "through GBV training",
+            "CodeType": "Normal",
+            "NumericValue": 13,
+            "StringValue": "through_gbv_training",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-3f4f5466",
+            "DisplayText": "providing psychosocial support",
+            "CodeType": "Normal",
+            "NumericValue": 14,
+            "StringValue": "providing_psychosocial_support",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-6c79885e",
             "CodeType": "Normal",
             "DisplayText": "other theme",
