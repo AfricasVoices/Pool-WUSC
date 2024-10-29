@@ -382,6 +382,61 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                 ],
             ),
             AnalysisDatasetConfiguration(
+                engagement_db_datasets=["leap_s08_lessons_learnt"],
+                dataset_type=DatasetTypes.RESEARCH_QUESTION_ANSWER,
+                raw_dataset="leap_s08_lessons_learnt_raw",
+                coding_configs=[
+                    CodingConfiguration(
+                        code_scheme=load_code_scheme("rqas/leap_s08/lessons_learnt"),
+                        analysis_dataset="s08_lessons_learnt"
+                    )
+                ],
+            ),
+            AnalysisDatasetConfiguration(
+                engagement_db_datasets=["leap_s08_attitude_change"],
+                dataset_type=DatasetTypes.RESEARCH_QUESTION_ANSWER,
+                raw_dataset="leap_s08_attitude_change_raw",
+                coding_configs=[
+                    CodingConfiguration(
+                        code_scheme=load_code_scheme("rqas/leap_s08/attitude_change"),
+                        analysis_dataset="s08_attitude_change"
+                    )
+                ],
+            ),
+            AnalysisDatasetConfiguration(
+                engagement_db_datasets=["leap_s08_community_change"],
+                dataset_type=DatasetTypes.RESEARCH_QUESTION_ANSWER,
+                raw_dataset="leap_s08_community_change_raw",
+                coding_configs=[
+                    CodingConfiguration(
+                        code_scheme=load_code_scheme("rqas/leap_s08/community_change"),
+                        analysis_dataset="s08_community_change"
+                    )
+                ],
+            ),
+            AnalysisDatasetConfiguration(
+                engagement_db_datasets=["leap_s08_actions_taken"],
+                dataset_type=DatasetTypes.RESEARCH_QUESTION_ANSWER,
+                raw_dataset="leap_s08_actions_taken_raw",
+                coding_configs=[
+                    CodingConfiguration(
+                        code_scheme=load_code_scheme("rqas/leap_s08/actions_taken"),
+                        analysis_dataset="s08_actions_taken"
+                    )
+                ],
+            ),
+            AnalysisDatasetConfiguration(
+                engagement_db_datasets=["leap_s08_lessons_carried_forward"],
+                dataset_type=DatasetTypes.RESEARCH_QUESTION_ANSWER,
+                raw_dataset="leap_s08_lessons_carried_forward_raw",
+                coding_configs=[
+                    CodingConfiguration(
+                        code_scheme=load_code_scheme("rqas/leap_s08/lessons_carried_forward"),
+                        analysis_dataset="s08_lessons_carried_forward"
+                    )
+                ],
+            ),
+            AnalysisDatasetConfiguration(
                 engagement_db_datasets=["kakuma_gender"],
                 dataset_type=DatasetTypes.DEMOGRAPHIC,
                 raw_dataset="gender_raw",
