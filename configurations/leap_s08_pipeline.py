@@ -140,6 +140,24 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                 ] + demogs_question_configurations
             )
         ),
+        KoboToolBoxSource(
+            token_file_url="gs://avf-credentials/uraia-kobotoolbox-token.json",
+            sync_config=KoboToolBoxToEngagementDBConfiguration(
+                asset_uid="a2kmuRyxt4GTtaHrnzxurk",
+                participant_id_configuration=KoboToolBoxParticipantIdConfiguration(
+                    data_column_name="Contacts",
+                    id_type=KoboToolBoxParticipantIdTypes.KENYA_MOBILE_NUMBER
+                ),
+                ignore_invalid_mobile_numbers=True,
+                question_configurations=[
+                    KoboToolBoxQuestionConfiguration(data_column_name="leap_lessons_learnt", engagement_db_dataset="leap_s08_lessons_learnt"),
+                    KoboToolBoxQuestionConfiguration(data_column_name="leap_attitude_change", engagement_db_dataset="leap_s08_attitude_change"),
+                    KoboToolBoxQuestionConfiguration(data_column_name="leap_community_change", engagement_db_dataset="leap_s08_community_change"),
+                    KoboToolBoxQuestionConfiguration(data_column_name="leap_actions_taken", engagement_db_dataset="leap_s08_actions_taken"),
+                    KoboToolBoxQuestionConfiguration(data_column_name="leap_lessons_carried_forward", engagement_db_dataset="leap_s08_lessons_carried_forward")
+                ] + demogs_question_configurations
+            )
+        ),
     ],
     coda_sync=CodaConfiguration(
         coda=CodaClientConfiguration(credentials_file_url="gs://avf-credentials/coda-production.json"),
