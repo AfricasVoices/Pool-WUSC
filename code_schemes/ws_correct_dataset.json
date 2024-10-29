@@ -67,6 +67,51 @@
             "MatchValues": ["kakuma disabled"]
         },
         {
+            "CodeID": "code-817d50a0",
+            "CodeType": "Normal",
+            "DisplayText": "leap s08 lessons learnt",
+            "StringValue": "leap_s08_lessons_learnt",
+            "NumericValue": 119,
+            "VisibleInCoda": true,
+            "MatchValues": ["leap s08 lessons learnt"]
+        },
+        {
+            "CodeID": "code-9f134336",
+            "CodeType": "Normal",
+            "DisplayText": "leap s08 attitude change",
+            "StringValue": "leap_s08_attitude_change",
+            "NumericValue": 120,
+            "VisibleInCoda": true,
+            "MatchValues": ["leap s08 attitude change"]
+        },
+        {
+            "CodeID": "code-c808c947",
+            "CodeType": "Normal",
+            "DisplayText": "leap s08 community change",
+            "StringValue": "leap_s08_community_change",
+            "NumericValue": 121,
+            "VisibleInCoda": true,
+            "MatchValues": ["leap s08 community change"]
+        },
+        {
+            "CodeID": "code-7971756f",
+            "CodeType": "Normal",
+            "DisplayText": "leap s08 actions taken",
+            "StringValue": "leap_s08_actions_taken",
+            "NumericValue": 122,
+            "VisibleInCoda": true,
+            "MatchValues": ["leap s08 actions taken"]
+        },
+        {
+            "CodeID": "code-2f148eb2",
+            "CodeType": "Normal",
+            "DisplayText": "leap s08 lessons carried forward",
+            "StringValue": "leap_s08_lessons_carried_forward",
+            "NumericValue": 123,
+            "VisibleInCoda": true,
+            "MatchValues": ["leap s08 lessons carried forward"]
+        },
+        {
             "CodeID": "code-9839a2d4",
             "CodeType": "Normal",
             "DisplayText": "leap s07e01",
