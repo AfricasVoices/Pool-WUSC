@@ -39,6 +39,12 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     FlowResultConfiguration("wusc_leap_s08e5_activation", "rqa_s08e05", "leap_s08e05"),
                     FlowResultConfiguration("wusc_leap_s08e06_activation", "rqa_s08e06", "leap_s08e06"),
 
+                    FlowResultConfiguration("wusc_leap_s08_end_evaluation", "leap_lessons_learnt", "leap_s08_lessons_learnt"),
+                    FlowResultConfiguration("wusc_leap_s08_end_evaluation", "leap_attitude_change", "leap_s08_attitude_change"),
+                    FlowResultConfiguration("wusc_leap_s08_end_evaluation", "leap_community_change", "leap_s08_community_change"),
+                    FlowResultConfiguration("wusc_leap_s08_end_evaluation", "leap_actions_taken", "leap_s08_actions_taken"),
+                    FlowResultConfiguration("wusc_leap_s08_end_evaluation", "leap_lessons_carried_forward", "leap_s08_lessons_carried_forward"),
+
                     FlowResultConfiguration("wusc_leap_s07_demogs", "age", "kakuma_age"),
                     FlowResultConfiguration("wusc_leap_s07_demogs", "gender", "kakuma_gender"),
                     FlowResultConfiguration("wusc_leap_s07_demogs", "location", "kakuma_location"),
