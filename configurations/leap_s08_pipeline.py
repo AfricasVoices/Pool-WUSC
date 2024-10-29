@@ -194,6 +194,51 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     ws_code_match_value="leap s08e06"
                 ),
                 CodaDatasetConfiguration(
+                    coda_dataset_id="LEAP_s08_lessons_learnt",
+                    engagement_db_dataset="leap_s08_lessons_learnt",
+                    code_scheme_configurations=[
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqas/leap_s08/lessons_learnt"),
+                                                auto_coder=None, coda_code_schemes_count=3)
+                    ],
+                    ws_code_match_value="leap s08 lessons learnt"
+                ),
+                CodaDatasetConfiguration(
+                    coda_dataset_id="LEAP_s08_attitude_change",
+                    engagement_db_dataset="leap_s08_attitude_change",
+                    code_scheme_configurations=[
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqas/leap_s08/attitude_change"),
+                                                auto_coder=None, coda_code_schemes_count=3)
+                    ],
+                    ws_code_match_value="leap s08 attitude change"
+                ),
+                CodaDatasetConfiguration(
+                    coda_dataset_id="LEAP_s08_community_change",
+                    engagement_db_dataset="leap_s08_community_change",
+                    code_scheme_configurations=[
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqas/leap_s08/community_change"),
+                                                auto_coder=None, coda_code_schemes_count=3)
+                    ],
+                    ws_code_match_value="leap s08 community change"
+                ),
+                CodaDatasetConfiguration(
+                    coda_dataset_id="LEAP_s08_actions_taken",
+                    engagement_db_dataset="leap_s08_actions_taken",
+                    code_scheme_configurations=[
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqas/leap_s08/actions_taken"),
+                                                auto_coder=None, coda_code_schemes_count=3)
+                    ],
+                    ws_code_match_value="leap s08 actions taken"
+                ),
+                CodaDatasetConfiguration(
+                    coda_dataset_id="LEAP_s08_lessons_carried_forward",
+                    engagement_db_dataset="leap_s08_lessons_carried_forward",
+                    code_scheme_configurations=[
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqas/leap_s08/lessons_carried_forward"),
+                                                auto_coder=None, coda_code_schemes_count=3)
+                    ],
+                    ws_code_match_value="leap s08 lessons carried forward"
+                ),
+                CodaDatasetConfiguration(
                     coda_dataset_id="WUSC-KEEP-II_kakuma_gender",
                     engagement_db_dataset="kakuma_gender",
                     code_scheme_configurations=[
