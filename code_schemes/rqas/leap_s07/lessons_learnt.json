@@ -4,6 +4,54 @@
     "Version": "0.0.0.1",
     "Codes": [
         {
+            "CodeID": "code-f723316e",
+            "DisplayText": "gender equality",
+            "CodeType": "Normal",
+            "NumericValue": 1,
+            "StringValue": "gender_equality",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-5f74bc3f",
+            "DisplayText": "respect for women",
+            "CodeType": "Normal",
+            "NumericValue": 2,
+            "StringValue": "respect_for_women",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-8284477d",
+            "DisplayText": "end gender discrimination",
+            "CodeType": "Normal",
+            "NumericValue": 3,
+            "StringValue": "end_gender_discrimination",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-f043f891",
+            "DisplayText": "girls education",
+            "CodeType": "Normal",
+            "NumericValue": 4,
+            "StringValue": "girls_education",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-6ef03850",
+            "DisplayText": "end early marriage",
+            "CodeType": "Normal",
+            "NumericValue": 5,
+            "StringValue": "end_early_marriage",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-01cae198",
+            "DisplayText": "various soft skills",
+            "CodeType": "Normal",
+            "NumericValue": 6,
+            "StringValue": "various_soft_skills",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-6c79885e",
             "CodeType": "Normal",
             "DisplayText": "other theme",
