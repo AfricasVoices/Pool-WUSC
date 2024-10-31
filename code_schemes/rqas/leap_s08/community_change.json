@@ -4,6 +4,94 @@
     "Version": "0.0.0.1",
     "Codes": [
         {
+            "CodeID": "code-0f06629b",
+            "DisplayText": "women in business",
+            "CodeType": "Normal",
+            "NumericValue": 1,
+            "StringValue": "women_in_business",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-02f6e7ba",
+            "DisplayText": "reduced early marriages",
+            "CodeType": "Normal",
+            "NumericValue": 2,
+            "StringValue": "reduced_early_marriages",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-f5a96015",
+            "DisplayText": "support for girls education",
+            "CodeType": "Normal",
+            "NumericValue": 3,
+            "StringValue": "support_for_girls_education",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-e80a433d",
+            "DisplayText": "support for gender equality",
+            "CodeType": "Normal",
+            "NumericValue": 4,
+            "StringValue": "support_for_gender_equality",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-5e82f4b2",
+            "DisplayText": "women in leadership",
+            "CodeType": "Normal",
+            "NumericValue": 5,
+            "StringValue": "women_in_leadership",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-183755b2",
+            "DisplayText": "reduced GBV",
+            "CodeType": "Normal",
+            "NumericValue": 6,
+            "StringValue": "reduced_gbv",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-437d60f5",
+            "DisplayText": "women mentorship",
+            "CodeType": "Normal",
+            "NumericValue": 7,
+            "StringValue": "women_mentorship",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-17b5d92c",
+            "DisplayText": "men supporting women",
+            "CodeType": "Normal",
+            "NumericValue": 8,
+            "StringValue": "men_supporting_women",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-52e6b43e",
+            "DisplayText": "women in employment",
+            "CodeType": "Normal",
+            "NumericValue": 9,
+            "StringValue": "women_in_employment",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-4b98635a",
+            "DisplayText": "enhanced gender issues understanding",
+            "CodeType": "Normal",
+            "NumericValue": 10,
+            "StringValue": "enhanced_gender_issues_understanding",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-e8177cb4",
+            "DisplayText": "enhanced women participation",
+            "CodeType": "Normal",
+            "NumericValue": 11,
+            "StringValue": "enhanced_women_participation",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-6c79885e",
             "CodeType": "Normal",
             "DisplayText": "other theme",
