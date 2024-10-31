@@ -4,6 +4,54 @@
     "Version": "0.0.0.1",
     "Codes": [
         {
+            "CodeID": "code-0e5ede01",
+            "DisplayText": "support for girls education",
+            "CodeType": "Normal",
+            "NumericValue": 1,
+            "StringValue": "support_for_girls_education",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-289a67d7",
+            "DisplayText": "men supporting women",
+            "CodeType": "Normal",
+            "NumericValue": 2,
+            "StringValue": "men_supporting_women",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-f0c12c1f",
+            "DisplayText": "support for gender equality",
+            "CodeType": "Normal",
+            "NumericValue": 3,
+            "StringValue": "support_for_gender_equality",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-3c67d999",
+            "DisplayText": "reduced early marriages",
+            "CodeType": "Normal",
+            "NumericValue": 4,
+            "StringValue": "reduced_early_marriages",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-72ee750d",
+            "DisplayText": "women generating income",
+            "CodeType": "Normal",
+            "NumericValue": 5,
+            "StringValue": "women_generating_income",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-50b163f6",
+            "DisplayText": "respect for women",
+            "CodeType": "Normal",
+            "NumericValue": 6,
+            "StringValue": "respect_for_women",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-6c79885e",
             "CodeType": "Normal",
             "DisplayText": "other theme",
