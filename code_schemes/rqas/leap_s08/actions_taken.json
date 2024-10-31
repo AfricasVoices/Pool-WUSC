@@ -4,6 +4,78 @@
     "Version": "0.0.0.1",
     "Codes": [
         {
+            "CodeID": "code-a41cd5f4",
+            "DisplayText": "advocating for women rights",
+            "CodeType": "Normal",
+            "NumericValue": 1,
+            "StringValue": "advocating_for_women_rights",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-478811cf",
+            "DisplayText": "reporting GBV cases",
+            "CodeType": "Normal",
+            "NumericValue": 2,
+            "StringValue": "reporting_gbv_cases",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-82bf9da7",
+            "DisplayText": "promoting women entepreneurship",
+            "CodeType": "Normal",
+            "NumericValue": 3,
+            "StringValue": "promoting_women_entepreneurship",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-0826920b",
+            "DisplayText": "offering mental health support",
+            "CodeType": "Normal",
+            "NumericValue": 4,
+            "StringValue": "offering_mental_health_support",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-f98806f5",
+            "DisplayText": "holding community dialogues",
+            "CodeType": "Normal",
+            "NumericValue": 5,
+            "StringValue": "holding_community_dialogues",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-cfdc832f",
+            "DisplayText": "promoting women financial independence",
+            "CodeType": "Normal",
+            "NumericValue": 6,
+            "StringValue": "promoting_women_financial_independence",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-0e468981",
+            "DisplayText": "promoting girls education",
+            "CodeType": "Normal",
+            "NumericValue": 7,
+            "StringValue": "promoting_girls_education",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-38730b86",
+            "DisplayText": "offering mentorship programme",
+            "CodeType": "Normal",
+            "NumericValue": 8,
+            "StringValue": "offering_mentorship_programme",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-5fb012c9",
+            "DisplayText": "participating in womens events",
+            "CodeType": "Normal",
+            "NumericValue": 9,
+            "StringValue": "participating_in_womens_events",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-6c79885e",
             "CodeType": "Normal",
             "DisplayText": "other theme",
