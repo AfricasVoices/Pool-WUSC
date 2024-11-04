@@ -4,6 +4,54 @@
     "Version": "0.0.0.1",
     "Codes": [
         {
+            "CodeID": "code-3096495b",
+            "DisplayText": "embrace of womens contributions",
+            "CodeType": "Normal",
+            "NumericValue": 1,
+            "StringValue": "embrace_of_womens_contributions",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-6d500e9d",
+            "DisplayText": "acquired respect for women",
+            "CodeType": "Normal",
+            "NumericValue": 2,
+            "StringValue": "acquired_respect_for_women",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-d47f5bb0",
+            "DisplayText": "challenge cultural norms",
+            "CodeType": "Normal",
+            "NumericValue": 3,
+            "StringValue": "challenge_cultural_norms",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-06626cd1",
+            "DisplayText": "gender equality",
+            "CodeType": "Normal",
+            "NumericValue": 4,
+            "StringValue": "gender_equality",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-ed246d6a",
+            "DisplayText": "embrace of women leadership",
+            "CodeType": "Normal",
+            "NumericValue": 5,
+            "StringValue": "embrace_of_women_leadership",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-a2f43007",
+            "DisplayText": "support for women mentorship",
+            "CodeType": "Normal",
+            "NumericValue": 6,
+            "StringValue": "support_for_women_mentorship",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-6c79885e",
             "CodeType": "Normal",
             "DisplayText": "other theme",
