@@ -4,6 +4,70 @@
     "Version": "0.0.0.1",
     "Codes": [
         {
+            "CodeID": "code-97223eec",
+            "DisplayText": "promoting girls education",
+            "CodeType": "Normal",
+            "NumericValue": 1,
+            "StringValue": "promoting_girls_education",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-032b6b27",
+            "DisplayText": "started a business",
+            "CodeType": "Normal",
+            "NumericValue": 2,
+            "StringValue": "started_a_business",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-81793380",
+            "DisplayText": "mentoring girls",
+            "CodeType": "Normal",
+            "NumericValue": 3,
+            "StringValue": "mentoring_girls",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-b4511a9c",
+            "DisplayText": "supporting women",
+            "CodeType": "Normal",
+            "NumericValue": 4,
+            "StringValue": "supporting_women",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-73fc9b62",
+            "DisplayText": "volunteering",
+            "CodeType": "Normal",
+            "NumericValue": 5,
+            "StringValue": "volunteering",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-1dfb9838",
+            "DisplayText": "creating awareness",
+            "CodeType": "Normal",
+            "NumericValue": 6,
+            "StringValue": "creating_awareness",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-5c49f223",
+            "DisplayText": "advocating for gender equality",
+            "CodeType": "Normal",
+            "NumericValue": 7,
+            "StringValue": "advocating_for_gender_equality",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-93ff643c",
+            "DisplayText": "recommendations",
+            "CodeType": "Normal",
+            "NumericValue": 8,
+            "StringValue": "recommendations",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-6c79885e",
             "CodeType": "Normal",
             "DisplayText": "other theme",
