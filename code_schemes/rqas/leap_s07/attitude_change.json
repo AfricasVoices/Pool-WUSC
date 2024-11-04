@@ -5,26 +5,26 @@
     "Codes": [
         {
             "CodeID": "code-4c7b399d",
-            "DisplayText": "gender equity",
+            "DisplayText": "for gender equity",
             "CodeType": "Normal",
             "NumericValue": 1,
-            "StringValue": "gender_equity",
+            "StringValue": "for_gender_equity",
             "VisibleInCoda": true
         },
         {
             "CodeID": "code-09cf8e88",
-            "DisplayText": "end GBV",
+            "DisplayText": "against discrimination",
             "CodeType": "Normal",
             "NumericValue": 2,
-            "StringValue": "end_gbv",
+            "StringValue": "against_discrimination",
             "VisibleInCoda": true
         },
         {
             "CodeID": "code-d72ec61b",
-            "DisplayText": "end early marriages",
+            "DisplayText": "against early marriages",
             "CodeType": "Normal",
             "NumericValue": 3,
-            "StringValue": "end_early_marriages",
+            "StringValue": "against_early_marriages",
             "VisibleInCoda": true
         },
         {
