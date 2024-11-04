@@ -76,6 +76,22 @@
             "VisibleInCoda": true
         },
         {
+            "CodeID": "code-6e5d0524",
+            "DisplayText": "promoting girls education",
+            "CodeType": "Normal",
+            "NumericValue": 10,
+            "StringValue": "promoting_girls_education",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-2c249699",
+            "DisplayText": "raising awareness",
+            "CodeType": "Normal",
+            "NumericValue": 11,
+            "StringValue": "raising_awareness",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-6c79885e",
             "CodeType": "Normal",
             "DisplayText": "other theme",
