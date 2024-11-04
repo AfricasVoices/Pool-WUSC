@@ -4,6 +4,102 @@
     "Version": "0.0.0.1",
     "Codes": [
         {
+            "CodeID": "code-ac92cb66",
+            "DisplayText": "gender equality",
+            "CodeType": "Normal",
+            "NumericValue": 1,
+            "StringValue": "gender_equality",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-33cd2e55",
+            "DisplayText": "importance of women empowerment",
+            "CodeType": "Normal",
+            "NumericValue": 2,
+            "StringValue": "importance_of_women_empowerment",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-244221bd",
+            "DisplayText": "importance of education",
+            "CodeType": "Normal",
+            "NumericValue": 3,
+            "StringValue": "importance_of_education",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-a48e1fe1",
+            "DisplayText": "importance of health education",
+            "CodeType": "Normal",
+            "NumericValue": 4,
+            "StringValue": "importance_of_health_education",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-d7746921",
+            "DisplayText": "women can generate income",
+            "CodeType": "Normal",
+            "NumericValue": 5,
+            "StringValue": "women_can_generate_income",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-3b0f891b",
+            "DisplayText": "building healthy relationships",
+            "CodeType": "Normal",
+            "NumericValue": 6,
+            "StringValue": "building_healthy_relationships",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-4957d68f",
+            "DisplayText": "challenging traditional practices",
+            "CodeType": "Normal",
+            "NumericValue": 7,
+            "StringValue": "challenging_traditional_practices",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-220c8f94",
+            "DisplayText": "engage men and boys",
+            "CodeType": "Normal",
+            "NumericValue": 8,
+            "StringValue": "engage_men_and_boys",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-1dd1f737",
+            "DisplayText": "importance of role models",
+            "CodeType": "Normal",
+            "NumericValue": 9,
+            "StringValue": "importance_of_role_models",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-39ec813a",
+            "DisplayText": "importance of support networks",
+            "CodeType": "Normal",
+            "NumericValue": 10,
+            "StringValue": "importance_of_support_networks",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-60166872",
+            "DisplayText": "importance of awareness",
+            "CodeType": "Normal",
+            "NumericValue": 11,
+            "StringValue": "importance_of_awareness",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-10e8dacb",
+            "DisplayText": "fight gender biases",
+            "CodeType": "Normal",
+            "NumericValue": 12,
+            "StringValue": "fight_gender_biases",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-6c79885e",
             "CodeType": "Normal",
             "DisplayText": "other theme",
