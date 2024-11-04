@@ -4,6 +4,46 @@
     "Version": "0.0.0.1",
     "Codes": [
         {
+            "CodeID": "code-f7317a51",
+            "DisplayText": "women empowerment",
+            "CodeType": "Normal",
+            "NumericValue": 1,
+            "StringValue": "women_empowerment",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-dd9b2644",
+            "DisplayText": "women education",
+            "CodeType": "Normal",
+            "NumericValue": 2,
+            "StringValue": "women_education",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-d6d227f5",
+            "DisplayText": "create awareness",
+            "CodeType": "Normal",
+            "NumericValue": 3,
+            "StringValue": "create_awareness",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-a14d139a",
+            "DisplayText": "promote gender equality",
+            "CodeType": "Normal",
+            "NumericValue": 4,
+            "StringValue": "promote_gender_equality",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-124fcc11",
+            "DisplayText": "personal development",
+            "CodeType": "Normal",
+            "NumericValue": 5,
+            "StringValue": "personal_development",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-6c79885e",
             "CodeType": "Normal",
             "DisplayText": "other theme",
