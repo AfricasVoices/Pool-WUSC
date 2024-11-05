@@ -4,6 +4,46 @@
     "Version": "0.0.0.1",
     "Codes": [
         {
+            "CodeID": "code-9bf0861d",
+            "DisplayText": "women education",
+            "CodeType": "Normal",
+            "NumericValue": 1,
+            "StringValue": "women_education",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-5b4d5dea",
+            "DisplayText": "promote gender equality",
+            "CodeType": "Normal",
+            "NumericValue": 2,
+            "StringValue": "promote_gender_equality",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-5a9288a8",
+            "DisplayText": "womens financial independence",
+            "CodeType": "Normal",
+            "NumericValue": 3,
+            "StringValue": "womens_financial_independence",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-7eb82143",
+            "DisplayText": "women empowerment",
+            "CodeType": "Normal",
+            "NumericValue": 4,
+            "StringValue": "women_empowerment",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-d6d18179",
+            "DisplayText": "women leadership",
+            "CodeType": "Normal",
+            "NumericValue": 5,
+            "StringValue": "women_leadership",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-6c79885e",
             "CodeType": "Normal",
             "DisplayText": "other theme",
