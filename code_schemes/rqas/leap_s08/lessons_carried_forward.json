@@ -44,6 +44,14 @@
             "VisibleInCoda": true
         },
         {
+            "CodeID": "code-e2fdf92c",
+            "DisplayText": "personal development",
+            "CodeType": "Normal",
+            "NumericValue": 6,
+            "StringValue": "personal_development",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-6c79885e",
             "CodeType": "Normal",
             "DisplayText": "other theme",
